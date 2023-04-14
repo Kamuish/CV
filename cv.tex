@@ -1,0 +1,67 @@
+%\newif\ifen
+%\newif\ifpt
+%\entrue % English enabled
+%\pttrue % Portuguese disabled
+
+%% -- comment out all lines above if using makefile -- %%
+
+\documentclass{article}
+\usepackage[english,portuges]{babel}
+\usepackage{csquotes} % recommended when using babel
+
+%language markup commands
+\newcommand{\langen}[1]{%
+  \ifen\selectlanguage{english}#1\fi}
+\newcommand{\langpt}[1]{%
+  \ifpt\selectlanguage{portuges}#1\fi}
+
+%refs
+\usepackage[backend=biber,style=numeric,]{biblatex}
+\addbibresource{first_author.bib}
+\addbibresource{talks.bib}
+\addbibresource{co_author.bib}
+
+
+%dates
+\addbibresource{dates.bib} % generated/updated on the fly
+\newwrite\mydates
+\newcounter{datecnt}
+\newcommand\dates[1] 
+{%
+  \stepcounter{datecnt}%
+  \immediate\write\mydates{@misc{date\thedatecnt,date={#1}}}%
+  \citedate{date\thedatecnt}%
+}
+
+\AtBeginDocument{\immediate\openout\mydates=dates.bib}
+\AtEndDocument{\immediate\closeout\mydates}
+
+\title{Curriculum Vitae}
+\author{Some Author}
+\date{}
+\input{dictionary.tex}
+
+\begin{document}
+\maketitle
+
+\langen{\section{Education}}\langpt{\section{Formação}}
+\begin{itemize}
+\item \langen{Doctor's Degree in Astronomy}\langpt{Programa doutoral em Astronomia}: \dates{2019-08} - \langen{now}\langpt{Presente}\\
+{\small \IA\ + \fcup}
+
+\item \langen{Master's in Physics Engineering}\langpt{Mestrado Integrado em Engenharia Física}: \dates{2014-09} - \dates{2019-08}\\
+{\small \fcup}
+\end{itemize}
+
+\langen{\section{Publications}}\langpt{\section{Publicações}}
+\begin{enumerate}
+\item \fullcite{SBARTPaper}
+\item \fullcite{ArchiPaper}
+\end{enumerate}
+
+\langen{\section{Talks}}\langpt{\section{Comunicações}}
+\begin{enumerate}
+%\item \fullcite{nytalk}
+\end{enumerate}
+
+\end{document}
