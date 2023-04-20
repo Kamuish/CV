@@ -6,8 +6,12 @@
 %% -- comment out all lines above if using makefile -- %%
 
 \documentclass{article}
+
+% Template adapted from this one: https://ptmartins.info/2021/05/15/cv.html
+
 \usepackage[english,portuges]{babel}
 \usepackage{csquotes} % recommended when using babel
+\usepackage{hyperref}
 
 %language markup commands
 \newcommand{\langen}[1]{%
@@ -20,7 +24,7 @@
 \addbibresource{first_author.bib}
 \addbibresource{talks.bib}
 \addbibresource{co_author.bib}
-
+\addbibresource{posters.bib}
 
 %dates
 \addbibresource{dates.bib} % generated/updated on the fly
@@ -37,7 +41,7 @@
 \AtEndDocument{\immediate\closeout\mydates}
 
 \title{Curriculum Vitae}
-\author{Some Author}
+\author{André M. Silva}
 \date{}
 \input{dictionary.tex}
 
@@ -53,15 +57,83 @@
 {\small \fcup}
 \end{itemize}
 
-\langen{\section{Publications}}\langpt{\section{Publicações}}
+\langen{\section{First-author publications}}\langpt{\section{Publicações como primeiro autor}}
 \begin{enumerate}
 \item \fullcite{SBARTPaper}
 \item \fullcite{ArchiPaper}
 \end{enumerate}
 
-\langen{\section{Talks}}\langpt{\section{Comunicações}}
+\langen{\section{Co-author publications}}\langpt{\section{Publicações como co-autor}}
 \begin{enumerate}
-%\item \fullcite{nytalk}
+
+
 \end{enumerate}
+
+
+\langen{\section{Talks}}\langpt{\section{Comunicações}}
+\begin{itemize}
+
+\item \fullcite{talkEPRV5}
+\item \fullcite{talkEspressoF2f}
+\item \fullcite{talkEXO4}
+\item \fullcite{talkIAON8}
+\item \fullcite{archicookieseminar2020}
+\end{itemize}
+
+\langen{\section{Posters}}\langpt{\section{Posters}}
+\begin{itemize}
+
+\item \fullcite{Poster5}
+\item \fullcite{Poster4}
+\item \fullcite{Poster3}
+\item \fullcite{Poster2}
+\item \fullcite{Poster1}
+\end{itemize}
+
+
+\langen{\section{Supervision}}\langpt{\section{Supervisão}}
+\begin{enumerate}
+\item Co-supervisor \langen{of an undergraduate project}\langpt{de um projeto de licenciatura} (Mafalda Matos, U. Porto):  "An analysis of the performance of CHEOPS mission pipelines: the DRP and archi"  \dates{2020-02/2020-06}  
+\item Co-supervisor \langen{of an undergraduate project}\langpt{de um projeto de licenciatura} (Pedro Afonso, U. Porto):  "A new activity proxy for finding other Earths"  \dates{2022-11/2023-02} 
+\item  Co-supervisor of an MsC thesis project (José Lino, U. Porto):  "Looking at the Sun, finding other Earths"  October 2022 - Present 
+\end{enumerate}
+
+
+\langen{\section{Conferences}}\langpt{\section{Conferencias}}
+\begin{enumerate}
+\item EPRV5 (March 2023)\\
+\item GPRV2022 workshop (2022)\\
+\item European Astronomical Society Annual Meeting (2021)\\
+\item Statistical challenges in Modern Astronomy VII (2021)\\
+\item Europlanet Science Congress (2020)\\
+\item 30th Encontro Nacional de Astronomia e Astrofísica (2020)
+\item {\textbullet{}} Summer School in Statistics for Astronomers XVI(June 1 – 5, 2021)\\
+\item $14^{th}$ Heidelberg Summer School on Instrumentation for Ground-based Optical \& Infrared Astronomy (9 - 13 Sep 2019)
+\end{enumerate}
+
+
+
+\langen{\section{Grants}}\langpt{\section{Financiamento}}
+\begin{enumerate}
+
+\item FLAD grant (PAPERS 4 USA)
+\item PhD fellowship from Fundação para a Ciência e Tecnologia (FCT): "A new paradigm for the estimation of precise stellar radial velocities: towards the development of an innovative data analysis software"; Ref: 2020.05387.BD\\ -- Jan 2021 - Present
+\item Research fellowship in the field of Planetary Systems at Instituto de Astrofísica e Ciências do Espaço (IA).  Ref: IA2019-17-BIM -- Nov - Dec 2019 
+\item Scientific Initiation Studenship  in the field of Computacional Astrophysics at the Instituto de Astrofísica e Ciências do Espaço (IA).  Ref: CIAAUP-11/x\2019-BIC \\ -- Apr - Sep 2019
+\end{enumerate}
+
+
+\langen{\section{Outreach}}\langpt{\section{Divulgação}}
+\begin{enumerate}
+
+\item \fullcite{ignite2023TorresVedras}
+
+%  André M. Silva, Descoberta de outra Terra - deteção de planetas fora do sistema solar, Agrupamento de escolas n2 de Évora - escola de Vila Boim.
+
+% André M. Silva, Descoberta de outra Terra - deteção de planetas fora do sistema solar, Agrupamento de escolas do Algueirao/ escola básica e secundária mestre domingos Saraiva, 18 Outubro 2022
+
+% André M. Silva, Descoberta de outra Terra - deteção de planetas fora do sistema solar, Escola Luís Madureira do Agrupamento Almeida Garrett em Alfragide, Amadora, 26 Outubro 2022
+\end{enumerate}
+
 
 \end{document}
