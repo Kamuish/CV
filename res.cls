@@ -215,14 +215,14 @@
 
 \def\@printcentername{\begingroup
   % print the name centered
-  \leavevmode\hbox to \textwidth{\hfil\@tablebox{\namefont\@name}\hfil}\par
+  \leavevmode\hbox to \textwidth{\hfil\@tablebox{\namefont\@name} \hfill \hfil \hfil \@addressone \hfil}\par
   \@ifundefined{@addressone}{%
     % do nothing
   }{
     \@ifundefined{@addressthree}{
         \@ifundefined{@addresstwo}{
           % only one address
-          \leavevmode\hbox to \textwidth{\hfil\@tablebox{\@addressone}\hfil}\par
+          % \leavevmode\hbox to \textwidth{\hfil\@tablebox{\@addressone}\hfil}\par
         }{
           % two addresses
           \leavevmode\hbox to \textwidth{\@tablebox{\@addressone}\hfil
@@ -243,7 +243,7 @@
 % this is used to print the name and address at the top of
 % the page with a hline in between
 
-\def\namefont{\large\bf}
+\def\namefont{\huge\bf}
 \def\@linename{\begingroup
   \def\\{ : }
   {\namefont\@name}
