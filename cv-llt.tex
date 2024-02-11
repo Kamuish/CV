@@ -25,18 +25,6 @@
   \ifpt\selectlanguage{portuges}#1\fi}
 
 
-% Add dates
-\newwrite\mydates
-\newcounter{datecnt}
-\newcommand\dates[1]  
-{%
-  \stepcounter{datecnt}%
-  \immediate\write\mydates{@misc{date\thedatecnt,date={#1}}}%
-  \citedate{date\thedatecnt}%
-} 
-
-\AtBeginDocument{\immediate\openout\mydates=dates.bib}
-\AtEndDocument{\immediate\closeout\mydates}
 
 
 
@@ -83,6 +71,22 @@ maxnames=2}{biblatex}
     }
   }
 }
+
+\addbibresource{talks.bib}
+
+% Add dates
+\addbibresource{dates.bib} % generated/updated on the fly 
+\newwrite\mydates
+\newcounter{datecnt}
+\newcommand\dates[1]  
+{%
+  \stepcounter{datecnt}%
+  \immediate\write\mydates{@misc{date\thedatecnt,date={#1}}}%
+  \citedate{date\thedatecnt}%
+} 
+
+\AtBeginDocument{\immediate\openout\mydates=dates.bib}
+\AtEndDocument{\immediate\closeout\mydates}
 
 %% Specify your last name(s) and first name(s) (as given in the .bib) to automatically bold your own name in the publications list. 
 %% One caveat: You need to write \bibnamedelima where there's a space in your name for this to work properly; or write \bibnamedelimi if you use initials in the .bib
@@ -160,12 +164,18 @@ maxnames=2}{biblatex}
 
 % If you're not a researcher nor an academic, you probably don't have any publications; delete this line.
 %% Sometimes when a section can't be nicely modelled with the \entry[]... mechanism; hack our own and use \input NOT \makerubric
+\makerubric{talks}
 \input{publications}
 
-\makerubric{skills}
-\makerubric{misc}
+\makerubric{Supervision}
+\makerubric{Teaching}
 
-\makerubric{referee}
+\makerubric{outreach}
+
+% \makerubric{skills}
+\makerubric{misc}
+ 
+% \makerubric{referee}
 % \input{referee-full}
 
 \end{document}
