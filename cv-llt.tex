@@ -12,11 +12,14 @@
 \entrue % English enabled
 % \pttrue % Portuguese disabled -> update document class if enabled
 
+\documentclass[11pt,a4paper,sans]{moderncv}   
+     % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
-\documentclass[a4paper,skipsamekey,11pt,english]{curve}
+% moderncv themes
+\moderncvstyle{classic}  
+\moderncvcolor{blue}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
 
-% Uncomment to enable Chinese; needs XeLaTeX
-% \usepackage{ctex}
+\usepackage[portuges]{babel}  % FIXME: using spanish breaks moderncv
 
 % Language control
 \newcommand{\langen}[1]{%
@@ -25,162 +28,78 @@
   \ifpt\selectlanguage{portuges}#1\fi}
 
 
-
-% Default biblatex style used for the publication list is APA6. If you wish to use a different style or pass other options to biblatex you can change them here. 
-\PassOptionsToPackage{style=ieee,sorting=ynt,
-uniquename=init,
-defernumbers=true,
-maxnames=2}{biblatex}
-
 % --//--- 
 %
-\usepackage{etaremune}
-
-% Most commands and style definitions are in settings.sty.
-\usepackage{settings}
-
-% If you need to further customise your biblatex setup e.g. with \DeclareFieldFormat etc please add them here AFTER loading settings.sty. For example, to remove the default "[Online] Available:" prefix before URLs when using the IEEE style:
-\DefineBibliographyStrings{english}{url={\textsc{url}}}
-
-%% Only needed if you want a Publication List
-\addbibresource{firstauthor.bib}
-\DeclareSourcemap{
-  \maps[datatype=bibtex]{
-    \map[overwrite]{
-      \perdatasource{firstauthor.bib}
-      \step[fieldset=keywords, fieldvalue={,self}, append]
-    }
-  }
-}
-
-\addbibresource{CoAuthor.bib}
-\DeclareSourcemap{
-  \maps[datatype=bibtex]{
-    \map[overwrite]{
-      \perdatasource{CoAuthor.bib}
-      \step[fieldset=keywords, fieldvalue={,coAuth}, append]
-    }
-  }
-}
-
-\addbibresource{posters.bib}
-\DeclareSourcemap{
-  \maps[datatype=bibtex]{
-    \map[overwrite]{
-      \perdatasource{posters.bib}
-      \step[fieldset=keywords, fieldvalue={,posters}, append]
-    }
-  }
-}
-
-\addbibresource{talks.bib}
-
-% Add dates
-\addbibresource{dates.bib} % generated/updated on the fly 
-\newwrite\mydates
-\newcounter{datecnt}
-\newcommand\dates[1]  
-{%
-  \stepcounter{datecnt}%
-  \immediate\write\mydates{@misc{date\thedatecnt,date={#1}}}%
-  \citedate{date\thedatecnt}%
-} 
- 
+\usepackage[scale=0.75]{geometry}
+\setlength{\footskip}{136.00005pt}              
 
 
-\AtBeginDocument{\immediate\openout\mydates=dates.bib}
-\AtEndDocument{\immediate\closeout\mydates}
-
-%% Specify your last name(s) and first name(s) (as given in the .bib) to automatically bold your own name in the publications list. 
-%% One caveat: You need to write \bibnamedelima where there's a space in your name for this to work properly; or write \bibnamedelimi if you use initials in the .bib
-% \mynames{Lim/Lian\bibnamedelima Tze}
-
-%% You can specify multiple names like this, especially if you have changed your name or if you need to highlight multiple authors. See items 6–9 in the example "Journal Articles" output.
-\mynames{A. M. Silva,
-  Silva/André\bibnamedelimi M.,
-  Silva/André\bibnamedelima M.,
-  }
-%% MAKE SURE THERE IS NO SPACE AFTER THE FINAL NAME IN YOUR \mynames LIST
-
-
-% Change the fonts if you want
-\ifxetexorluatex % If you're using XeLaTeX or LuaLaTeX
-  \usepackage{fontspec} 
-  %% You can use \setmainfont etc; I'm just using these font packages here because they provide OpenType fonts for use by XeLaTeX/LuaLaTeX anyway
-  \usepackage[p,osf,swashQ]{cochineal}
-  \usepackage[medium,bold]{cabin}
-  \usepackage[varqu,varl,scale=0.9]{zi4}
-\else % If you're using pdfLaTeX or latex
+\ifxetexorluatex
+  \usepackage{fontspec}
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Ligatures=TeX}
+  \setmainfont{Latin Modern Roman}
+  \setsansfont{Latin Modern Sans}
+  \setmonofont{Latin Modern Mono}
+  \setmathfont{Latin Modern Math} 
+\else
   \usepackage[T1]{fontenc}
-  \usepackage[p,osf,swashQ]{cochineal}
-  \usepackage{cabin}
-  \usepackage[varqu,varl,scale=0.9]{zi4}
+  \usepackage{lmodern}
 \fi
 
-% Change the page margins if you want
-% \geometry{left=1cm,right=1cm,top=1.5cm,bottom=1.5cm}
-
-% Change the colours if you want
-% \definecolor{SwishLineColour}{HTML}{00FFFF}
-% \definecolor{MarkerColour}{HTML}{0000CC}
-
-% Change the item prefix marker if you want
-% \prefixmarker{$\diamond$}
-
-%% Photo is only shown if "fullonly" is included
-% \includecomment{fullonly}
-\excludecomment{fullonly}
 \usepackage{orcidlink}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\name{Andre}{M. Silva}
+\social[orcid]{0000-0003-4920-738X}   
+\email{Andre.Silva@astro.up.pt}                               % optional, remove / comment the line if not wanted
+\social[github]{Kamuish} 
+\address{Rua das Estrelas}{4150-762 Porto}{Portugal}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+
+\homepage{https://kamuish.github.io/content/}
+
+% Instituto de Astrofísica e Ciências do Espaço
+
+\extrainfo{Ciencia ID: 2416-D5A6-DFA5}                 % optional, remove / comment the line if not wanted
 
 
-\leftheader{%
-  {\LARGE\bfseries\sffamily André M. Silva \orcidlink{0000-0003-4920-738X}}
 
-  \makefield{\faEnvelope[regular]}{\href{Andre.Silva@astro.up.pt}{\texttt{Andre.Silva@astro.up.pt}}}
-  \makefield{\faGithub{}}
-  {\href{https://www.github.com/Kamuish}{\texttt{Kamuish}}}
-  \makefield{\faGlobe}{\url{https://kamuish.github.io/content/}}
+\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}
+\setlength{\hintscolumnwidth}{0.18\textwidth}
+
+\makeatletter
+\NewDocumentCommand{\mysubsection}{sm}{%
+  \par\addvspace{1ex}%
+  \phantomsection{}% reset the anchor for hyperrefs
+  \addcontentsline{toc}{subsection}{#2}%
+  {\strut\raggedleft\raisebox{\baseletterheight}{\color{color1}\rule{0.5\hintscolumnwidth}{0.95ex}}\quad}{\strut\subsectionstyle{#2}}%
+  \par\nobreak\addvspace{.5ex}\@afterheading}% to avoid a pagebreak after the heading
+\makeatother
 
 
-  %% Next line
-  \makefield{\faMapPin}{Instituto de Astrofísica e Ciências do Espaço,
-  Rua das Estrelas, 4150-762 Porto, Portugal}
+\RequirePackage{tikz}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+   \node[shape=circle,text=white,fill=color1!80!black,font=\sffamily\scriptsize\bfseries,inner sep=1pt,text height=1.35ex,minimum width=1.5em,text centered] (char) {#1};}}
+   
 
-  \makefield{}{Ciencia ID: 2416-D5A6-DFA5}
-  
-  % You can use a tabular here if you want to line up the fields.
-}
-
-\rightheader{~}
-\begin{fullonly}
-\photo[r]{photo}
-\photoscale{0.13}
-\end{fullonly}
-
-\title{Curriculum Vitae}
-
+\definecolor{MarkerColour}{HTML}{B6073F}
 
 \begin{document}
+\makecvtitle
 
-\makeheaders[c]
+\section{Short bio}
 
-\makerubric{education}
-\makerubric{employment}
 
-% If you're not a researcher nor an academic, you probably don't have any publications; delete this line.
-%% Sometimes when a section can't be nicely modelled with the \entry[]... mechanism; hack our own and use \input NOT \makerubric
-\makerubric{talks}
+\input{education}
+\input{employment}
+\input{Teaching}
+\input{funding}
+\input{talks}
+\input{Supervision}
 \input{publications}
 
-\makerubric{Supervision}
-\makerubric{Teaching}
-
-\makerubric{outreach}
-
-% \makerubric{skills}
-\makerubric{misc}
+\input{outreach}
+\input{misc}
  
 % \makerubric{referee}
 % \input{referee-full}

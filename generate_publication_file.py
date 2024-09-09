@@ -78,12 +78,12 @@ def add_space(number, file):
     file.write(number * "\n")
 
 with open(out_file, mode="w") as to_write:
-    to_write.write(r"\makerubrichead{\langen{Research outputs}\langpt{Publicações}}\n")
+    to_write.write(r"\section{Research outputs}")
     add_space(2, to_write)
     
     for entry_type, entries in latex_entries.items():
         title = info_map[entry_type]["title"]
-        to_write.write(r"\subrubric{" + title + "}")
+        to_write.write(r"\mysubsection{" + title + "}")
         add_space(2, to_write)
         to_write.write(r"\vspace*{0.2cm}")
         add_space(2, to_write)
