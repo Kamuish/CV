@@ -12,25 +12,25 @@
   urldate = {2023-05-09},
   abstract = {Methods. The model is a line-by-line radiative transfer code that assumes a single atmospheric layer. We use the sky conditions and the physical properties of the lines from the HITRAN database to create the telluric spectrum. This high-resolution model is then convolved with the instrumental resolution and sampled to the instrumental wavelength grid. A subset of selected telluric lines is used to robustly fit the spectrum through a Levenberg--Marquardt minimization algorithm. Results. We computed the model to the H2O lines in the spectral range of ESPRESSO. When applied to stellar spectra from A0- to M5-type stars, the residuals of the strongest water lines are below the 2\% peak-to-valley (P2V) amplitude for all spectral types, with the exception of M dwarfs, which are within the pseudo-continuum. We then determined the RVs from the telluric-corrected ESPRESSO spectra of Tau Ceti and Proxima. We created telluric-free masks and compared the obtained RVs with the DRS RVs. In the case of Tau Ceti, we identified that micro-telluric lines introduce systematics up to an amplitude of 58 cm s-1 and with a period of one year if not corrected. For Proxima, the impact of micro-telluric lines is negligible due to the low flux below 5900 {\AA}. For late-type stars, the gain in spectral content at redder wavelengths is equivalent to a gain of 25\% in photon noise or a factor of 1.78 in exposure time. This leads to better constraints on the semi-amplitude and eccentricity of Proxima d, which was recently proposed as a planet candidate. Finally, we applied our telluric model to the O2 {$\gamma$}-band and we obtained residuals below the 2\% P2V amplitude. Conclusions. We propose a simple telluric model for high-resolution spectrographs to correct individual spectra and to achieve precise RVs. The removal of micro-telluric lines, coupled with the gain in spectral range, leads to more precise RVs. Moreover, we showcase that our model can be applied to other molecules, and thus to other wavelength regions observed by other spectrographs, such as NIRPS.},
   langid = {english},
-  file = {/home/amiguel/Zotero/storage/89T43V4K/Allart et al. - 2022 - Automatic model-based telluric correction for the .pdf;/home/amiguel/Zotero/zotero_documents/Allart_Lovis_Automatic telluric correction for the ESPRESSO Data Reduction - Software Model.pdf}
+  file = {/home/amiguel/snap/zotero-snap/common/Zotero/storage/89T43V4K/Allart et al. - 2022 - Automatic model-based telluric correction for the .pdf;/home/amiguel/Zotero/zotero_documents/Allart_Lovis_Automatic telluric correction for the ESPRESSO Data Reduction - Software Model.pdf}
 }
 
-@misc{balsalobre-ruzaTextttKOBEsimBayesian2022,
-  title = {\${\textbackslash}texttt\{\vphantom\}{{KOBEsim}}\vphantom\{\}\$: A {{Bayesian}} Observing Strategy Algorithm for Planet Detection in Radial Velocity Blind-Search Surveys},
-  shorttitle = {\${\textbackslash}texttt\{\vphantom\}{{KOBEsim}}\vphantom\{\}\$},
+@article{balsalobre-ruzaKOBEsimBayesianObserving2023,
+  title = {{{KOBEsim}}: {{A Bayesian}} Observing Strategy Algorithm for Planet Detection in Radial Velocity Blind-Search Surveys},
+  shorttitle = {{{KOBEsim}}},
   author = {{Balsalobre-Ruza}, O. and {Lillo-Box}, J. and Berihuete, A. and Silva, A. M. and Santos, N. C. and {Castro-Gonz{\'a}lez}, A. and Faria, J. P. and Hu{\'e}lamo, N. and Barrado, D. and Demangeon, O. D. S. and Marfil, E. and Aceituno, J. and Adibekyan, V. and Azzaro, M. and Barros, S. C. C. and Bergond, G. and {Galad{\'i}-Enr{\'i}quez}, D. and Pedraz, S. and Santerne, A.},
-  year = {2022},
-  month = oct,
-  number = {arXiv:2210.11207},
-  eprint = {2210.11207},
-  primaryclass = {astro-ph},
-  publisher = {arXiv},
-  urldate = {2022-10-21},
-  abstract = {Context. Ground-based observing time is precious in the era of exoplanet follow-up and characterization, especially in high-precision radial velocity instruments. Blind-search radial velocity surveys thus require a dedicated observational strategy in order to optimize the observing time, which is particularly crucial for the detection of small rocky worlds at large orbital periods.},
-  archiveprefix = {arxiv},
-  langid = {english},
-  keywords = {Astrophysics - Earth and Planetary Astrophysics,Astrophysics - Instrumentation and Methods for Astrophysics},
-  file = {/home/amiguel/Zotero/zotero_documents/Balsalobre-Ruza_et_al_2022_-KOBEsim.pdf}
+  year = {2023},
+  month = jan,
+  journal = {Astronomy \& Astrophysics},
+  volume = {669},
+  pages = {A18},
+  issn = {0004-6361, 1432-0746},
+  doi = {10.1051/0004-6361/202243938},
+  urldate = {2024-07-11},
+  abstract = {Context.               Ground-based observing time is precious in the era of exoplanet follow-up and characterization, especially in high-precision radial velocity instruments. Blind-search radial velocity surveys thus require a dedicated observational strategy in order to optimize the observing time, which is particularly crucial for the detection of small rocky worlds at large orbital periods.                                         Aims.               We developed an algorithm with the purpose of improving the efficiency of radial velocity observations in the context of exoplanet searches, and we applied it to the K-dwarfs Orbited By habitable Exoplanets experiment. Our aim is to accelerate exoplanet confirmations or, alternatively, reject false signals as early as possible in order to save telescope time and increase the efficiency of both blind-search surveys and follow-up of transiting candidates.                                         Methods.               Once a minimum initial number of radial velocity datapoints is reached in such a way that a periodicity starts to emerge according to generalized Lomb-Scargle periodograms, that period is targeted with the proposed algorithm, named KOBEsim. The algorithm selects the next observing date that maximizes the Bayesian evidence for this periodicity in comparison with a model with no Keplerian orbits.                                         Results.               By means of simulated data, we proved that the algorithm accelerates the exoplanet detection, needing 29-33\% fewer observations and a 41--47\% smaller time span of the full dataset for low-mass planets (               m               p               {$<$} 10               M               {$\oplus$}               ) in comparison with a conventional monotonic cadence strategy. For 20               M               {$\oplus$}               planets we found a 16\% enhancement in the number of datapoints. We also tested KOBEsim with real data for a particular KOBE target and for the confirmed planet HD 102365 b. These two tests demonstrate that the strategy is capable of speeding up the detection by up to a factor of 2 (i.e., reducing both the time span and number of observations by half).},
+  copyright = {https://creativecommons.org/licenses/by/4.0},
+  keywords = {/unread},
+  file = {/home/amiguel/Zotero/zotero_documents/Balsalobre-Ruza_et_al_2023_KOBEsim.pdf}
 }
 
 @article{campanteExpandingFrontiersCooldwarf2024,
@@ -48,6 +48,23 @@
   abstract = {Fuelled by space photometry, asteroseismology is vastly benefitting the study of cool main-sequence stars, which exhibit convection-driven solar-like oscillations. Even so, the tiny oscillation amplitudes in K dwarfs continue to pose a challenge to space-based asteroseismology. A viable alternative is offered by the lower stellar noise over the oscillation timescales in Doppler observations. In this Letter we present the definite detection of solar-like oscillations in the bright K5 dwarf               {$\epsilon$}               Indi based on time-intensive observations collected with the ESPRESSO spectrograph at the VLT, thus making it the coolest seismic dwarf ever observed. We measured the frequencies of a total of 19 modes of degree               {$\ell$}               \;=\;0--2 along with               {$\nu$}               max               \;=\;5305\>{\textpm}\>176\hspace{0.166em}{$\mu$}Hz and {$\Delta$}               {$\nu$}               \;=\;201.25\>{\textpm}\>0.16\hspace{0.166em}{$\mu$}Hz. The peak amplitude of radial modes is 2.6\>{\textpm}\>0.5\hspace{0.166em}cm\hspace{0.166em}s               -1               , or a mere {$\sim$}14\% of the solar value. Measured mode amplitudes are {$\sim$}2 times lower than predicted from a nominal               L               /               M               scaling relation and favour a scaling closer to (               L               /               M               )               1.5               below {$\sim$}5500\hspace{0.166em}K, carrying important implications for our understanding of the coupling efficiency between pulsations and near-surface convection in K dwarfs. This detection conclusively shows that precise asteroseismology of cool dwarfs is possible down to at least the mid-K regime using next-generation spectrographs on large-aperture telescopes, effectively opening up a new domain in observational asteroseismology.},
   copyright = {https://creativecommons.org/licenses/by/4.0},
   keywords = {/unread}
+}
+
+@article{castro-gonzalezUnusuallyLowdensitySuperEarth2023,
+  title = {An Unusually Low-Density Super-{{Earth}} Transiting the Bright Early-Type {{M-dwarf GJ}} 1018 ({{TOI-244}})},
+  author = {{Castro-Gonz{\'a}lez}, A. and Demangeon, O. D. S. and {Lillo-Box}, J. and Lovis, C. and Lavie, B. and Adibekyan, V. and Acu{\~n}a, L. and Deleuil, M. and Aguichine, A. and Zapatero Osorio, M. R. and Tabernero, H. M. and Davoult, J. and Alibert, Y. and Santos, N. and Sousa, S. G. and {Antoniadis-Karnavas}, A. and Borsa, F. and Winn, J. N. and Allende Prieto, C. and Figueira, P. and Jenkins, J. M. and Sozzetti, A. and Damasso, M. and Silva, A. M. and {Astudillo-Defru}, N. and Barros, S. C. C. and Bonfils, X. and Cristiani, S. and Di Marcantonio, P. and Gonz{\'a}lez Hern{\'a}ndez, J. I. and Curto, G. Lo and Martins, C. J. A. P. and Nunes, N. J. and Palle, E. and Pepe, F. and Seager, S. and Su{\'a}rez Mascare{\~n}o, A.},
+  year = {2023},
+  month = jul,
+  journal = {Astronomy \& Astrophysics},
+  volume = {675},
+  pages = {A52},
+  issn = {0004-6361, 1432-0746},
+  doi = {10.1051/0004-6361/202346550},
+  urldate = {2024-07-11},
+  abstract = {Context.               Small planets located at the lower mode of the bimodal radius distribution are generally assumed to be composed of iron and silicates in a proportion similar to that of the Earth. However, recent discoveries are revealing a new group of low-density planets that are inconsistent with that description.                                         Aims.               We intend to confirm and characterize the TESS planet candidate TOI-244.01, which orbits the bright (               K               = 7.97 mag), nearby (               d               = 22 pc), and early-type (M2.5 V) M-dwarf star GJ 1018 with an orbital period of 7.4 days.                                         Methods.               We used Markov chain Monte Carlo methods to model 57 precise radial velocity measurements acquired by the ESPRESSO spectrograph together with TESS photometry and complementary HARPS data. Our model includes a planetary component and Gaussian processes aimed at modeling the correlated stellar and instrumental noise.                                         Results.               We find TOI-244 b to be a super-Earth with a radius of               R               p               = 1.52 {\textpm} 0.12               R               {$\oplus$}               and a mass of               M               p               = 2.68 {\textpm} 0.30               M               {$\oplus$}               . These values correspond to a density of               {$\rho$}               = 4.2 {\textpm} 1.1 g cm               -3               , which is below what would be expected for an Earth-like composition. We find that atmospheric loss processes may have been efficient to remove a potential primordial hydrogen envelope, but high mean molecular weight volatiles such as water could have been retained. Our internal structure modeling suggests that TOI-244 b has a 479               -96               +128               km thick hydrosphere over a 1.17 {\textpm} 0.09               R               {$\oplus$}               solid structure composed of a Fe-rich core and a silicate-dominated mantle compatible with that of the Earth. On a population level, we find two tentative trends in the density-metallicity and density-insolation parameter space for the low-density super-Earths, which may hint at their composition.                                         Conclusions.               With a 8\% precision in radius and 12\% precision in mass, TOI-244 b is among the most precisely characterized super-Earths, which, together with the likely presence of an extended hydrosphere, makes it a key target for atmospheric observations.},
+  copyright = {https://creativecommons.org/licenses/by/4.0},
+  keywords = {/unread},
+  file = {/home/amiguel/Zotero/zotero_documents/Castro-González_et_al_2023_An_unusually_low-density_super-Earth_transiting_the_bright_early-type_M-dwarf4.pdf}
 }
 
 @article{debeursCharacterizationK2167CALM2024,
@@ -79,10 +96,27 @@
   doi = {10.1051/0004-6361/202142337},
   urldate = {2022-02-14},
   abstract = {Context. Proxima Centauri is the closest star to the Sun. This small, low-mass, mid M dwarf is known to host an Earth-mass exoplanet with an orbital period of 11.2 days within the habitable zone, as well as a long-period planet candidate with an orbital period of close to 5 years. Aims. We report on the analysis of a large set of observations taken with the ESPRESSO spectrograph at the VLT aimed at a thorough evaluation of the presence of a third low-mass planetary companion, which started emerging during a previous campaign. Methods. Radial velocities (RVs) were calculated using both a cross-correlation function (CCF) and a template matching approach. The RV analysis includes a component to model Proxima's activity using a Gaussian process (GP). We use the CCF's full width at half maximum to help constrain the GP, and we study other simultaneous observables as activity indicators in order to assess the nature of any potential RV signals.},
-  archiveprefix = {arxiv},
+  archiveprefix = {arXiv},
   langid = {english},
   keywords = {Astrophysics - Earth and Planetary Astrophysics,Astrophysics - Solar and Stellar Astrophysics},
+  note = {Comment: 17 pages, 13 figures},
   file = {/home/amiguel/Zotero/zotero_documents/Faria et al_2022_A candidate short-period sub-Earth orbiting Proxima Centauri.pdf}
+}
+
+@inproceedings{leitePoETParanalSolar2024,
+  title = {{{PoET}}, the {{Paranal}} Solar {{ESPRESSO Telescope}}: A Spatially Resolved {{Sun}} in a High Resolution Spectrograph},
+  shorttitle = {{{PoET}}, the {{Paranal}} Solar {{ESPRESSO Telescope}}},
+  booktitle = {Ground-Based and {{Airborne Instrumentation}} for {{Astronomy X}}},
+  author = {Leite, In{\^e}s and Cabral, Alexandre and Santos, Nuno and Silva, Andr{\'e} and Oliveira, Ant{\'o}nio and Wehb{\'e}, Bachar and Alves, David and Martins, Jorge and Abreu, Manuel and Monteiro, Manuel and Moreno, Pedro and Gafeira, Ricardo},
+  editor = {Vernet, Jo{\"e}l R. and Bryant, Julia J. and Motohara, Kentaro},
+  year = {2024},
+  month = jul,
+  pages = {270},
+  publisher = {SPIE},
+  address = {Yokohama, Japan},
+  doi = {10.1117/12.3016776},
+  urldate = {2024-09-02},
+  isbn = {978-1-5106-7515-5 978-1-5106-7516-2}
 }
 
 @article{lillo-boxHD22496bFirstESPRESSO2021,
@@ -100,10 +134,29 @@
   doi = {10.1051/0004-6361/202141714},
   urldate = {2022-10-21},
   abstract = {Methods. We use 41 ESPRESSO measurements of HD 22496 obtained within a time span of 895 days with a median photon noise of 18 cm s-1. A radial velocity analysis is performed to test the presence of planets in the system and to account for the stellar activity of this K5-K7 main sequence star. For benchmarking and comparison, we attempt the detection with 43 archive HARPS measurements and compare the results yielded by the two datasets. We also use four TESS sectors to search for transits. Results. We find radial velocity variations compatible with a close-in planet with an orbital period of P = 5.09071 {\textpm} 0.00026 days when simultaneously accounting for the effects of stellar activity at longer time scales (Prot = 34.99+-00..5583 days). We characterize the physical and orbital properties of the planet and find a minimum mass of 5.57+-00..7638 M{$\oplus$}, right in the dichotomic regime between rocky and gaseous planets. Although not transiting according to TESS data, if aligned with the stellar spin axis, the absolute mass of the planet must be below 16 M{$\oplus$}. We find no significant evidence for additional signals in the data with semi-amplitudes above 56 cm s-1 at 95\% confidence. Conclusions. With a modest set of radial velocity measurements, ESPRESSO is capable of detecting and characterizing low-mass planets and constrain the presence of planets in the habitable zone of K-dwarfs down to the rocky-mass regime.},
-  archiveprefix = {arxiv},
+  archiveprefix = {arXiv},
   langid = {english},
   keywords = {Astrophysics - Earth and Planetary Astrophysics,Astrophysics - Instrumentation and Methods for Astrophysics},
-  file = {/home/amiguel/Zotero/storage/NBR58FWS/Lillo-Box et al. - 2021 - HD22496b the first ESPRESSO standalone planet dis.pdf}
+  note = {Comment: Accepted for publication in A\&A. 12 pages, 8 figures, 3 tables},
+  file = {/home/amiguel/snap/zotero-snap/common/Zotero/storage/NBR58FWS/Lillo-Box et al. - 2021 - HD22496b the first ESPRESSO standalone planet dis.pdf}
+}
+
+@article{lillo-boxKOBEExperimentKdwarfs2022,
+  title = {The {{KOBE}} Experiment: {{K-dwarfs Orbited By}} Habitable {{Exoplanets}}: {{Project}} Goals, Target Selection, and Stellar Characterization},
+  shorttitle = {The {{KOBE}} Experiment},
+  author = {{Lillo-Box}, J. and Santos, N. C. and Santerne, A. and Silva, A. M. and Barrado, D. and Faria, J. and {Castro-Gonz{\'a}lez}, A. and {Balsalobre-Ruza}, O. and {Morales-Calder{\'o}n}, M. and Saavedra, A. and Marfil, E. and Sousa, S. G. and Adibekyan, V. and Berihuete, A. and Barros, S. C. C. and {Delgado-Mena}, E. and Hu{\'e}lamo, N. and Deleuil, M. and Demangeon, O. D. S. and Figueira, P. and Grouffal, S. and Aceituno, J. and Azzaro, M. and Bergond, G. and {Fern{\'a}ndez-Mart{\'i}n}, A. and Galad{\'i}, D. and Gallego, E. and Gardini, A. and G{\'o}ngora, S. and Guijarro, A. and Hermelo, I. and Mart{\'i}n, P. and M{\'i}nguez, P. and Montoya, L. M. and Pedraz, S. and Vico Linares, J. I.},
+  year = {2022},
+  month = nov,
+  journal = {Astronomy \& Astrophysics},
+  volume = {667},
+  pages = {A102},
+  issn = {0004-6361, 1432-0746},
+  doi = {10.1051/0004-6361/202243898},
+  urldate = {2024-07-11},
+  abstract = {The detection of habitable worlds is one of humanity's greatest endeavors. Thus far, astrobiological studies have shown that one of the most critical components for allowing life to develop is liquid water. Its chemical properties and its capacity to dissolve and, hence, transport other substances makes this constituent a key piece in this regard. As a consequence, looking for life as we know it is directly related to the search for liquid water. For a remote detection of life in distant planetary systems, this essentially means looking for planets in the so-called habitable zone. In this sense, K-dwarf stars are the perfect hosts to search for planets in this range of distances. Contrary to G-dwarfs, the habitable zone is closer, thus making planet detection easier using transit or radial velocity techniques. Contrary to M-dwarfs, stellar activity is on a much smaller scale, hence, it has a smaller impact in terms of both the detectability and the true habitability of the planet. Also, K-dwarfs are the quietest in terms of oscillations, and granulation noise. In spite of this, there is a dearth of planets in the habitable zone of K-dwarfs due to a lack of observing programs devoted to this parameter space. In response to a call for legacy programs of the Calar Alto observatory, we have initiated the first dedicated and systematic search for habitable planets around these stars: K-dwarfs Orbited By habitable Exoplanets (KOBE). This survey is monitoring the radial velocity of 50 carefully pre-selected K-dwarfs with the CARMENES instrument over five semesters, with an average of 90 data points per target. Based on planet occurrence rates convolved with our detectability limits, we expect to find 1.68 {\textpm} 0.25 planets per star in the KOBE sample. Furthermore, in half of the sample, we expect to find one of those planets within the habitable zone. Here, we describe the motivations, goals, and target selection for the project as well as the preliminary stellar characterization.},
+  copyright = {https://creativecommons.org/licenses/by/4.0},
+  keywords = {/unread},
+  file = {/home/amiguel/Zotero/zotero_documents/Lillo-Box_et_al_2022_The_KOBE_experiment2.pdf}
 }
 
 @article{mascarenoTwoTemperateEarthmass2023,
@@ -120,37 +173,74 @@
   doi = {10.1051/0004-6361/202244991},
   urldate = {2023-05-26},
   abstract = {We report the discovery and characterisation of two Earth-mass planets orbiting in the habitable zone of the nearby M-dwarf GJ 1002 based on the analysis of the radial-velocity (RV) time series from the ESPRESSO and CARMENES spectrographs. The host star is the quiet M5.5 V star GJ 1002 (relatively faint in the optical, V {$\sim$} 13.8 mag, but brighter in the infrared, J {$\sim$} 8.3 mag), located at 4.84 pc from the Sun.},
-  archiveprefix = {arxiv},
+  archiveprefix = {arXiv},
   langid = {english},
   keywords = {Astrophysics - Earth and Planetary Astrophysics,Astrophysics - Solar and Stellar Astrophysics},
-  file = {/home/amiguel/Zotero/storage/DLWV8TMW/Mascareño et al. - 2023 - Two temperate Earth-mass planets orbiting the near.pdf}
+  note = {Comment: 23 pages, 20 figures, 3 tables ; Replacement to fix some typos},
+  file = {/home/amiguel/snap/zotero-snap/common/Zotero/storage/DLWV8TMW/Mascareño et al. - 2023 - Two temperate Earth-mass planets orbiting the near.pdf}
 }
 
 @article{palethorpeConfrontingCompositionalConfusion2024,
   title = {Confronting Compositional Confusion through the Characterisation of the Sub-{{Neptune}} Orbiting {{HD}} 77946},
-  author = {Palethorpe, L. and John, A. Anna and Mortier, A. and Davoult, J. and Wilson, T. G. and Rice, K. and Cameron, A. C. and Alibert, Y. and Buchhave, L. A. and Malavolta, L. and Cadman, J. and {L{\'o}pez-Morales}, M. and Dumusque, X. and Silva, A. M. and Quinn, S. N. and Van Eylen, V. and Vissapragada, S. and Affer, L. and Charbonneau, D. and Cosentino, R. and Ghedina, A. and Haywood, R. D. and Latham, D. and Lienhard, F. and Fiorenzano, A. F. Mart{\'i}nez and Pedani, M. and Pepe, F. and Pinamonti, M. and Sozzetti, A. and Stalport, M. and Udry, S. and Vanderburg, A.},
+  author = {Palethorpe, L and John, A Anna and Mortier, A and Davoult, J and Wilson, T G and Rice, K and Cameron, A C and Alibert, Y and Buchhave, L A and Malavolta, L and Cadman, J and {L{\'o}pez-Morales}, M and Dumusque, X and Silva, A M and Quinn, S N and Van Eylen, V and Vissapragada, S and Affer, L and Charbonneau, D and Cosentino, R and Ghedina, A and Haywood, R D and Latham, D and Lienhard, F and Fiorenzano, A F Mart{\'i}nez and Pedani, M and Pepe, F and Pinamonti, M and Sozzetti, A and Stalport, M and Udry, S and Vanderburg, A},
   year = {2024},
-  publisher = {[object Object]},
-  doi = {10.48550/ARXIV.2403.04464},
-  urldate = {2024-03-11},
-  abstract = {We report on the detailed characterization of the HD 77946 planetary system. HD 77946 is an F5 (\$M\_*\$ = 1.17 M\$\_\{{\textbackslash}odot\}\$, \$R\_*\$ = 1.31 R\$\_\{{\textbackslash}odot\}\$) star, which hosts a transiting planet recently discovered by NASA's Transiting Exoplanet Survey Satellite (TESS), classified as TOI-1778 b. Using TESS photometry, high-resolution spectroscopic data from HARPS-N, and photometry from CHEOPS, we measure the radius and mass from the transit and RV observations, and find that the planet, HD 77946 b, orbits with period \$P\_\{{\textbackslash}rm b\}\$ = \$6.527282\_\{-0.000020\}{\textasciicircum}\{+0.000015\}\$ d, has a mass of \$M\_\{{\textbackslash}rm b\} = 8.38{\textbackslash}pm\{1.32\}\$M\$\_{\textbackslash}oplus\$, and a radius of \$R\_\{{\textbackslash}rm b\} = 2.705\_\{-0.081\}{\textasciicircum}\{+0.086\}\$R\$\_{\textbackslash}oplus\$. From the combination of mass and radius measurements, and the stellar chemical composition, the planet properties suggest that HD 77946 b is a sub-Neptune with a \${\textbackslash}sim\$1{\textbackslash}\% H/He atmosphere. However, a degeneracy still exists between water-world and silicate/iron-hydrogen models, and even though interior structure modelling of this planet favours a sub-Neptune with a H/He layer that makes up a significant fraction of its radius, a water-world composition cannot be ruled out, as with \$T\_\{{\textbackslash}rm eq\} = 1248{\textasciicircum}\{+40\}\_\{-38\}{\textasciitilde}\$K, water may be in a supercritical state. The characterisation of HD 77946 b, adding to the small sample of well-characterised sub-Neptunes, is an important step forwards on our journey to understanding planetary formation and evolution pathways. Furthermore, HD 77946 b has one of the highest transmission spectroscopic metrics for small planets orbiting hot stars, thus transmission spectroscopy of this key planet could prove vital for constraining the compositional confusion that currently surrounds small exoplanets.},
-  copyright = {Creative Commons Attribution 4.0 International},
+  month = mar,
+  journal = {Monthly Notices of the Royal Astronomical Society},
+  pages = {stae707},
+  issn = {0035-8711, 1365-2966},
+  doi = {10.1093/mnras/stae707},
+  urldate = {2024-07-11},
+  abstract = {Abstract             We report on the detailed characterization of the HD 77946 planetary system. HD 77946 is an F5 (M* = 1.17~M{$\odot$}, R* = 1.31 R{$\odot$}) star, which hosts a transiting planet recently discovered by NASA's Transiting Exoplanet Survey Satellite (TESS), classified as TOI-1778 b. Using TESS photometry, high-resolution spectroscopic data from HARPS-N, and photometry from CHEOPS, we measure the radius and mass from the transit and RV observations, and find that the planet, HD 77946 b, orbits with period Pb = \$6.527282\_\{-0.000020\}{\textasciicircum}\{+0.000015\}\$ d, has a mass of Mb = 8.38 {\textpm} 1.32~M{$\oplus$}, and a radius of \$R\_\{{\textbackslash}rm b\} = 2.705\_\{-0.081\}{\textasciicircum}\{+0.086\}\$R{$\oplus$}. From the combination of mass and radius measurements, and the stellar chemical composition, the planet properties suggest that HD 77946 b is a sub-Neptune with a {$\sim$}1\% H/He atmosphere. However, a degeneracy still exists between water-world and silicate/iron-hydrogen models, and even though interior structure modelling of this planet favours a sub-Neptune with a H/He layer that makes up a significant fraction of its radius, a water-world composition cannot be ruled out, as with \$T\_\{{\textbackslash}rm eq\}{\textasciitilde}= 1248{\textasciicircum}\{+40\}\_\{-38\}{\textasciitilde}\$K, water may be in a supercritical state. The characterisation of HD 77946 b, adding to the small sample of well-characterised sub-Neptunes, is an important step forwards on our journey to understanding planetary formation and evolution pathways. Furthermore, HD 77946 b has one of the highest transmission spectroscopic metrics for small planets orbiting hot stars, thus transmission spectroscopy of this key planet could prove vital for constraining the compositional confusion that currently surrounds small exoplanets.},
+  copyright = {https://creativecommons.org/licenses/by/4.0/},
+  langid = {english},
+  keywords = {/unread},
+  file = {/home/amiguel/Zotero/zotero_documents/Palethorpe_et_al_2024_Confronting_compositional_confusion_through_the_characterisation_of_the2.pdf}
+}
+
+@article{passeggerCompactMultiplanetSystem2024,
+  title = {The Compact Multi-Planet System {{GJ}} 9827 Revisited with {{ESPRESSO}}},
+  author = {Passegger, V. M. and Su{\'a}rez Mascare{\~n}o, A. and Allart, R. and Gonz{\'a}lez Hern{\'a}ndez, J. I. and Lovis, C. and Lavie, B. and Silva, A. M. and M{\"u}ller, H. M. and Tabernero, H. M. and Cristiani, S. and Pepe, F. and Rebolo, R. and Santos, N. C. and Adibekyan, V. and Alibert, Y. and Allende Prieto, C. and Barros, S. C. C. and Bouchy, F. and {Castro-Gonz{\'a}lez}, A. and D'Odorico, V. and Dumusque, X. and Di Marcantonio, P. and Ehrenreich, D. and Figueira, P. and G{\'e}nova Santos, R. and Lo Curto, G. and Martins, C. J. A. P. and Mehner, A. and Micela, G. and Molaro, P. and Nari, N. and Nunes, N. J. and Pall{\'e}, E. and Poretti, E. and Rodrigues, J. and Sousa, S. G. and Sozzetti, A. and Udry, S. and Zapatero Osorio, M. R.},
+  year = {2024},
+  month = apr,
+  journal = {Astronomy \& Astrophysics},
+  volume = {684},
+  pages = {A22},
+  issn = {0004-6361, 1432-0746},
+  doi = {10.1051/0004-6361/202348592},
+  urldate = {2024-07-11},
+  abstract = {GJ 9827 is a bright, nearby K7V star orbited by two super-Earths and one mini-Neptune on close-in orbits. The system was first discovered using K2 data and then further characterized by other spectroscopic and photometric instruments. Previous literature studies provide several mass measurements for the three planets, however, with large variations and uncertainties. To better constrain the planetary masses, we added high-precision radial velocity measurements from ESPRESSO to published datasets from HARPS, HARPS-N, and HIRES and we performed a Gaussian process analysis combining radial velocity and photometric datasets from K2 and TESS. This method allowed us to model the stellar activity signal and derive precise planetary parameters. We determined planetary masses of                                M                 b                              = 4.28               -0.33               +0.35               M               {$\oplus$}               ,                                M                 c                              = 1.86               -0.39               +0.37               M               {$\oplus$}               , and                                M                 d                              = 3.02               -0.57               +0.58               M               {$\oplus$}               , and orbital periods of 1.208974 {\textpm} 0.000001 days for planet b, 3.648103               -0.000010               +0.000013               days for planet c, and 6.201812 {\textpm} 0.000009 days for planet d. We compared our results to literature values and found that our derived uncertainties for the planetary mass, period, and radial velocity amplitude are smaller than the previously determined uncertainties. We modeled the interior composition of the three planets using the machine-learning-based tool ExoMDN and conclude that GJ 9827 b and c have an Earth-like composition, whereas GJ 9827 d has an hydrogen envelope, which, together with its density, places it in the mini-Neptune regime.},
+  copyright = {https://creativecommons.org/licenses/by/4.0},
+  keywords = {/unread},
+  file = {/home/amiguel/Zotero/zotero_documents/Passegger_et_al_2024_The_compact_multi-planet_system_GJ_9827_revisited_with_ESPRESSO.pdf}
+}
+
+@article{suarezmascarenoTESSESPRESSODiscover2024,
+  title = {{{TESS}} and {{ESPRESSO}} Discover a Super-{{Earth}} and a Mini-{{Neptune}} Orbiting the {{K-dwarf TOI-238}}},
+  author = {Su{\'a}rez Mascare{\~n}o, A. and Passegger, V. M. and Gonz{\'a}lez Hern{\'a}ndez, J. I. and Armstrong, D. J. and Nielsen, L. D. and Lovis, C. and Lavie, B. and Sousa, S. G. and Silva, A. M. and Allart, R. and Rebolo, R. and Pepe, F. and Santos, N. C. and Cristiani, S. and Sozzetti, A. and Zapatero Osorio, M. R. and Tabernero, H. M. and Dumusque, X. and Udry, S. and Adibekyan, V. and Allende Prieto, C. and Alibert, Y. and Barros, S. C. C. and Bouchy, F. and {Castro-Gonz{\'a}lez}, A. and Collins, K. A. and Damasso, M. and D'Odorico, V. and Demangeon, O. D. S. and Di Marcantonio, P. and Ehrenreich, D. and Hadjigeorghiou, A. and Hara, N. and Hawthorn, F. and Jenkins, J. M. and {Lillo-Box}, J. and Lo Curto, G. and Martins, C. J. A. P. and Mehner, A. and Micela, G. and Molaro, P. and Nunes, N. and Nari, N. and Osborn, A. and Pall{\'e}, E. and Ricker, G. R. and Rodrigues, J. and Rowden, P. and Seager, S. and Stefanov, A. K. and Str{\o}m, P. A. and Villase{\~n}or, J. N. S. and Watkins, C. N. and Winn, J. and Wohler, B. and Zambelli, R.},
+  year = {2024},
+  month = may,
+  journal = {Astronomy \& Astrophysics},
+  volume = {685},
+  pages = {A56},
+  issn = {0004-6361, 1432-0746},
+  doi = {10.1051/0004-6361/202348958},
+  urldate = {2024-07-11},
+  abstract = {The number of super-Earth and mini-Neptune planet discoveries has increased significantly in the last two decades thanks to transit and radial velocity (RV) surveys. When it is possible to apply both techniques, we can characterise the internal composition of exoplanets, which in turn provides unique insights on their architecture, formation and evolution. We performed a combined photometric and RV analysis of TOI-238 (TYC 6398-132-1), which has one short-orbit super-Earth planet candidate announced by NASA's TESS team. We aim to confirm its planetary nature using radial velocities taken with the ESPRESSO and HARPS spectrographs, to measure its mass, and to detect the presence of other possible planetary companions. We carried out a joint analysis by including Gaussian processes and Keplerian orbits to account for the stellar activity and planetary signals simultaneously. We detected the signal induced by TOI-238 b in the RV time series, and the presence of a second transiting planet, TOI-238 c, whose signal appears in RV and TESS data. TOI-238 b is a planet with a radius of 1.402               -0.086               +0.084               R               {$\oplus$}               and a mass of 3.40               -0.45               +0.46               M               {$\oplus$}               . It orbits at a separation of 0.02118 {\textpm} 0.00038 au of its host star, with an orbital period of 1.2730988 {\textpm} 0.0000029 days, and has an equilibrium temperature of 1311 {\textpm} 28 K. TOI-238 c has a radius of 2.18 {\textpm} 0.18               R               {$\oplus$}               and a mass of 6.7 {\textpm} 1.1               M               {$\oplus$}               . It orbits at a separation of 0.0749 {\textpm} 0.0013 au of its host star, with an orbital period of 8.465652 {\textpm} 0.000031 days, and has an equilibrium temperature of 696 {\textpm} 15 K. The mass and radius of planet b are fully consistent with an Earth-like composition, making it a likely rocky super-Earth. Planet c could be a water-rich planet or a rocky planet with a small H-He atmosphere.},
+  copyright = {https://creativecommons.org/licenses/by/4.0},
   keywords = {/unread}
 }
 
-@misc{passeggerCompactMultiplanetSystem2024,
-  title = {The Compact Multi-Planet System {{GJ}} 9827 Revisited with {{ESPRESSO}}},
-  author = {Passegger, V. M. and Mascare{\~n}o, A. Su{\'a}rez and Allart, R. and Hern{\'a}ndez, J. I. Gonz{\'a}lez and Lovis, C. and Lavie, B. and Silva, A. M. and M{\"u}ller, H. M. and Tabernero, H. M. and Cristiani, S. and Pepe, F. and Rebolo, R. and Santos, N. C. and Adibekyan, V. and Alibert, Y. and Prieto, C. Allende and Barros, S. C. C. and Bouchy, F. and {Castro-Gonz{\'a}lez}, A. and D'Odorico, V. and Dumusque, X. and Di Marcantonio, P. and Ehrenreich, D. and Figueira, P. and Santos, R. G{\'e}nova and Curto, G. Lo and Martins, C. J. A. P. and Mehner, A. and Micela, G. and Molaro, P. and Nari, N. and Nunes, N. J. and Pall{\'e}, E. and Poretti, E. and Rodrigues, J. and Sousa, S. G. and Sozzetti, A. and Udry, S. and Osorio, M. R. Zapatero},
+@inproceedings{wehbeImplementationSeeingMeasurement2024,
+  title = {Implementation of a Seeing Measurement Device for the {{PoET}} Solar Telescope},
+  booktitle = {Ground-Based and {{Airborne Instrumentation}} for {{Astronomy X}}},
+  author = {Wehb{\'e}, Bachar and Abreu, Manuel and Silva, Andr{\'e} and Cabral, Alexandre and Santos, Nuno},
+  editor = {Vernet, Jo{\"e}l R. and Bryant, Julia J. and Motohara, Kentaro},
   year = {2024},
-  month = jan,
-  number = {arXiv:2401.06276},
-  eprint = {2401.06276},
-  primaryclass = {astro-ph},
-  publisher = {arXiv},
-  urldate = {2024-01-15},
-  abstract = {GJ 9827 is a bright, nearby K7V star orbited by two super-Earths and one mini-Neptune on close-in orbits. The system was first discovered using K2 data and then further characterized by other spectroscopic and photometric instruments. Previous literature studies provide several mass measurements for the three planets, however, with large variations and uncertainties. To better constrain the planetary masses, we added high-precision radial velocity measurements from ESPRESSO to published datasets from HARPS, HARPS-N, and HIRES and we performed a Gaussian process analysis combining radial velocity and photometric datasets from K2 and TESS. This method allowed us to model the stellar activity signal and derive precise planetary parameters. We determined planetary masses of Mb = 4.28+-00..3353 M{$\oplus$}, Mc = 1.86+-00..3379 M{$\oplus$}, and Md = 3.02-+00..5587 M{$\oplus$}, and orbital periods of 1.208974 {\textpm} 0.000001 days for planet b, 3.648103+-00..000000001130 days for planet c, and 6.201812 {\textpm} 0.000009 days for planet d. We compared our results to literature values and found that our derived uncertainties for the planetary mass, period, and radial velocity amplitude are smaller than the previously determined uncertainties. We modeled the interior composition of the three planets using the machine-learning-based tool ExoMDN and conclude that GJ 9827 b and c have an Earth-like composition, whereas GJ 9827 d has an hydrogen envelope, which, together with its density, places it in the mini-Neptune regime.},
-  archiveprefix = {arxiv},
-  langid = {english},
-  keywords = {/unread},
-  file = {/home/amiguel/Zotero/storage/YN8JFK44/Passegger et al. - 2024 - The compact multi-planet system GJ 9827 revisited .pdf}
+  month = jul,
+  pages = {306},
+  publisher = {SPIE},
+  address = {Yokohama, Japan},
+  doi = {10.1117/12.3017481},
+  urldate = {2024-09-02},
+  isbn = {978-1-5106-7515-5 978-1-5106-7516-2}
 }

@@ -13,7 +13,7 @@ with open(biblio_file) as to_read:
 	paper_key = None 
 
 	for line in to_read:
-		if "@" in line and ("article" in line or "misc" in line):
+		if "@" in line and ("article" in line or "misc" in line or "inproceedings" in line):
 			paper_key = within_brackets(line)
 			paper_key = paper_key.replace(",", "")
 			paper_key = paper_key.replace("\n", "")
