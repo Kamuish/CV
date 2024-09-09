@@ -37,6 +37,7 @@ latex_entries = defaultdict(list)
 
 
 for name, file in data_map.items():
+    print("Starting", name)
     out = bibtexparser.parse_file(file)
 
     if name == "first_author":
@@ -48,21 +49,29 @@ for name, file in data_map.items():
     else:
         raise Exception
     
-    
     for block in out.blocks:
         data = load_from_field(block.fields)
         print(data["title"])
+
+        if name in ["first_author", "coAuthor"]:
+            if block.entry_type == "inproceedings":
+                vol = data.get("Volume", "")
+                journal = f"Proc. {data['publisher']} {vol}, {data['booktitle']}"
+            else:
+                journal = data["journal"]
         
         if name == "first_author":
-            entry = base_format.format(data["year"], data["title"], data["journal"], gen_DOI(data["doi"]), r"\textcolor{MarkerColour!80!black}{\scriptsize\faLink}")
+            entry = base_format.format(data["year"], data["title"], journal, gen_DOI(data["doi"]), r"\textcolor{MarkerColour!80!black}{\scriptsize\faLink}")
             
         elif name == "coAuthor":
             try:
-                entry = base_format.format(data["year"], data["title"], data["journal"], gen_DOI(data["doi"]), 
+                entry = base_format.format(data["year"], data["title"], journal , gen_DOI(data["doi"]), 
                                        data["author"].split(",")[0], r"\textcolor{MarkerColour!80!black}{\scriptsize\faLink}")
-            except:
+            except Exception as e:
                 print("Couldn't add this")
-                continue 
+                print(e)
+                breakpoint()
+                input() 
         elif name == "Posters":
             entry = base_format.format(data["title"], data["location"], data["date"])
         else:
