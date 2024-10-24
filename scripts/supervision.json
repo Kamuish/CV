@@ -1,0 +1,103 @@
+[  
+    {
+        "cat": "OTHER",
+        "sub-cat": "PEEC",
+        "status": "Co-supervisor",
+        "name": "Carla Henriques",
+        "title": "Development of a GUI interface for the exploitation of data from the s-BART pipeline",
+        "location": "CAUP",
+        "written_dates": "Feb - Jul 24",
+        "start_date": "2024-02-01",
+        "end_date": "2024-06-01"
+    },
+    {
+        "cat": "OTHER",
+        "sub-cat": "PEEC",
+        "status": "Co-supervisor",
+        "name": "Martim Paiva",
+        "title": "Solar-to-sky coordinate conversion for PoET operations",
+        "location": "CAUP",
+        "written_dates": "Feb - Jul 24",
+        "start_date": "2024-02-01",
+        "end_date": "2024-06-01"
+    },
+
+    {
+        "cat": "OTHER",
+        "sub-cat": "PEEC",
+        "status": "Co-supervisor",
+        "name": "João Cunha",
+        "title": "Exoplanet detection through a new model for the correction of instrumental effects",
+        "location": "CAUP",
+        "written_dates": [
+            "Feb - Jul 23",
+            "Feb - Jul 23"
+        ],
+        "start_date": "2023-02-01",
+        "end_date": "2023-06-01"
+    },
+
+    {
+        "cat": "OTHER",
+        "type": [
+            "Bolsa de Iniciação para a Investigação (BII)",
+            "Research Initiation Fellowship (BII)"
+        ],
+        "status": "Co-supervisor",
+        "name": "Diogo Marques (ref CIAAUP-03/2023-BII)",
+        "title": " Development of a tool for the normalization of stellar spectra: application to ESPRESSO data",
+        "location": "CAUP",
+        "written_dates": [
+            "Mar - Jul 23",
+            "Mar - Jul 23"
+        ],
+        "start_date": "2023-03-01",
+        "end_date": "2023-06-01"
+    },
+
+    {
+        "cat": "MsC",
+        "status": "Co-supervisor",
+        "name": "José Lino",
+        "title": "Looking at the Sun, finding other Earths: Identification of Solar Regions",
+        "location": "CAUP / UPorto",
+        "written_dates": [
+            "Oct 22 - Nov 23",
+            "Out 22 - Nov 23"
+        ],
+        "start_date": "2022-10-01",
+        "end_date": "2023-11-01"
+    },
+
+    {
+        "cat": "OTHER",
+        "status": "Co-supervisor",
+        "type": [
+            "projeto de licenciatura",
+            "undergraduate project"
+        ],
+        "name": "Pedro Afonso",
+        "title": "A new activity proxy for finding other Earths",
+        "location": "CAUP/FCUP",
+        "written_dates": "Nov 22 - Feb 23",
+        "start_date": "2022-11-01",
+        "end_date": "2023-02-01"
+    },
+    {
+        "cat": "OTHER",
+        "status": "Co-supervisor",
+        "type": [
+            "projeto de licenciatura",
+            "undergraduate project"
+        ],
+        "name": "Mafalda Matos",
+        "title": "An analysis of the performance of CHEOPS mission pipelines: the DRP and archi",
+        "location": "CAUP/FCUP",
+        "written_dates": "Feb - Jun 20",
+        "start_date": "2020-02-01",
+        "end_date": "2020-06-01"
+    }
+]
+
+
+
