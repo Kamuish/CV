@@ -9,8 +9,8 @@
 
 \newif\ifen
 \newif\ifpt
-\entrue % English enabled
-% \pttrue % Portuguese disabled -> update document class if enabled
+%\entrue % English enabled
+\pttrue % Portuguese disabled -> update document class if enabled
 
 \documentclass[11pt,a4paper,sans]{moderncv}   
      % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
@@ -23,7 +23,7 @@
 
 % Language control
 \newcommand{\langen}[1]{%
-  \ifen\selectlanguage{english}#1\fi}
+  \ifen\selectlanguage{english}#1\fi}  
 \newcommand{\langpt}[1]{%
   \ifpt\selectlanguage{portuges}#1\fi}
 
@@ -60,7 +60,7 @@
 
 % Instituto de Astrofísica e Ciências do Espaço
 
-\extrainfo{Ciencia ID: 2416-D5A6-DFA5\\Date of birth: 1st of May 1996}                 % optional, remove / comment the line if not wanted
+\extrainfo{Ciencia ID: 2416-D5A6-DFA5%\\Date of birth: 1st of May 1996}                 % optional, remove / comment the line if not wanted
 
 
 
@@ -98,9 +98,13 @@
 \begin{document}
 \makecvtitle
 
-\section{Short bio}
+%\section{Short bio}
 
+\langen{
 I am André Silva, a post-doctoral researcher from Instituto de \href{https://www.iastro.pt/}{Astrofísica e Ciências do Espaço} (Portugal). My work is focused on two different fileds: instrumentation and exoplanetary science. I am currently working in the PoET solar telescope, in the development of the software that will be used during observations. Complementary to that work, I am also working in the extraction of precise radial velocities, through the development of novel algorithms for such purpose. In the past 3 years I was one of the two instructors of an advanced course provided by CAUP. Furthermore, I also lectured the practical classes of a MsC-level course in Departamento de Física e Astronomia da Faculdade de Ciências da Universidade do Porto.
+}
+
+
 
 \input{education}
 \input{employment}

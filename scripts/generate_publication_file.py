@@ -87,7 +87,7 @@ def add_space(number, file):
     file.write(number * "\n")
 
 with open(out_file, mode="w") as to_write:
-    to_write.write(r"\section{Research outputs}")
+    to_write.write(r"\section{\langen{Research outputs}\langpt{Resultados}}")
     add_space(2, to_write)
     
     for entry_type, entries in latex_entries.items():
