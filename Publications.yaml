@@ -1,0 +1,144 @@
+coAuthor:
+- authors: !!set
+    Nari et al: null
+  date: '2025'
+  doi: 10.1051/0004-6361/202451769
+  journal: Astronomy \& Astrophysics
+  title: 'Revisiting the multi-planetary system of the nearby star {HD} 20794: {Confirmation}
+    of a low-mass planet in the habitable zone of a nearby {G}-dwarf'
+- authors: !!set
+    Stefanov et al: null
+  date: '2025'
+  doi: 10.1051/0004-6361/202452450
+  journal: Astronomy \& Astrophysics
+  title: "A sub-{Earth}-mass planet orbiting {Barnard}\u2019s star: {No} evidence\
+    \ of transits in {TESS} photometry"
+- authors: !!set
+    Balsalobre-Ruza et al: null
+  date: '2025'
+  doi: 10.1051/0004-6361/202452631
+  journal: Astronomy \& Astrophysics
+  title: '{KOBE}-1: {The} first planetary system from the {KOBE} survey: {Two} planets
+    likely residing in the sub-{Neptune} mass regime around a late {K}-dwarf'
+- authors: !!set
+    De Beurs et al: null
+  date: '2024'
+  doi: 10.1093/mnras/stae207
+  journal: Monthly Notices of the Royal Astronomical Society
+  title: Characterization of {K2}-167 b and {CALM}, a new stellar activity mitigation
+    method
+- authors: !!set
+    Campante et al: null
+  date: '2024'
+  doi: 10.1051/0004-6361/202449197
+  journal: Astronomy \& Astrophysics
+  title: "Expanding the frontiers of cool-dwarf asteroseismology with {ESPRESSO}:\
+    \ {Detection} of solar-like oscillations in the {K5} dwarf \\textit{\u03F5} {Indi}"
+- authors: !!set
+    "Su\xE1rez Mascare\xF1o et al": null
+  date: '2024'
+  doi: 10.1051/0004-6361/202348958
+  journal: Astronomy \& Astrophysics
+  title: '{TESS} and {ESPRESSO} discover a super-{Earth} and a mini-{Neptune} orbiting
+    the {K}-dwarf {TOI}-238'
+- authors: !!set
+    Palethorpe et al: null
+  date: '2024'
+  doi: 10.1093/mnras/stae707
+  journal: Monthly Notices of the Royal Astronomical Society
+  title: Confronting compositional confusion through the characterisation of the sub-{Neptune}
+    orbiting {HD} 77946
+- authors: !!set
+    Passegger et al: null
+  date: '2024'
+  doi: 10.1051/0004-6361/202348592
+  journal: Astronomy \& Astrophysics
+  title: The compact multi-planet system {GJ} 9827 revisited with {ESPRESSO}
+- authors: !!set
+    "Wehb\xE9 et al": null
+  date: '2024'
+  doi: 10.1117/12.3017481
+  journal: Proc. SPIE , Ground-based and {Airborne} {Instrumentation} for {Astronomy}
+    {X}
+  title: Implementation of a seeing measurement device for the {PoET} solar telescope
+- authors: !!set
+    Leite et al: null
+  date: '2024'
+  doi: 10.1117/12.3016776
+  journal: Proc. SPIE , Ground-based and {Airborne} {Instrumentation} for {Astronomy}
+    {X}
+  title: '{PoET}, the {Paranal} solar {ESPRESSO} {Telescope}: a spatially resolved
+    {Sun} in a high resolution spectrograph'
+- authors: !!set
+    Costa Silva et al: null
+  date: '2024'
+  doi: 10.1051/0004-6361/202449935
+  journal: Astronomy \& Astrophysics
+  title: '{ESPRESSO} reveals blueshifted neutral iron emission lines on the dayside
+    of {WASP}-76 b'
+- authors: !!set
+    "Gonz\xE1lez Hern\xE1ndez et al": null
+  date: '2024'
+  doi: 10.1051/0004-6361/202451311
+  journal: Astronomy \& Astrophysics
+  title: "A sub-{Earth}-mass planet orbiting {Barnard}\u2019s star"
+- authors: !!set
+    "Mascare\xF1o et al": null
+  date: '2023'
+  doi: 10.1051/0004-6361/202244991
+  journal: Astronomy \& Astrophysics
+  title: Two temperate {Earth}-mass planets orbiting the nearby star {GJ1002}
+- authors: !!set
+    "Castro-Gonz\xE1lez et al": null
+  date: '2023'
+  doi: 10.1051/0004-6361/202346550
+  journal: Astronomy \& Astrophysics
+  title: An unusually low-density super-{Earth} transiting the bright early-type {M}-dwarf
+    {GJ} 1018 ({TOI}-244)
+- authors: !!set
+    Balsalobre-Ruza et al: null
+  date: '2023'
+  doi: 10.1051/0004-6361/202243938
+  journal: Astronomy \& Astrophysics
+  title: '{KOBEsim}: {A} {Bayesian} observing strategy algorithm for planet detection
+    in radial velocity blind-search surveys'
+- authors: !!set
+    Allart et al: null
+  date: '2022'
+  doi: 10.1051/0004-6361/202243629
+  journal: Astronomy \& Astrophysics
+  title: 'Automatic model-based telluric correction for the {ESPRESSO} data reduction
+    software: {Model} description and application to radial velocity computation'
+- authors: !!set
+    Faria et al: null
+  date: '2022'
+  doi: 10.1051/0004-6361/202142337
+  journal: Astronomy \& Astrophysics
+  title: A candidate short-period sub-{Earth} orbiting {Proxima} {Centauri}
+- authors: !!set
+    Lillo-Box et al: null
+  date: '2022'
+  doi: 10.1051/0004-6361/202243898
+  journal: Astronomy \& Astrophysics
+  title: 'The {KOBE} experiment: {K}-dwarfs {Orbited} {By} habitable {Exoplanets}:
+    {Project} goals, target selection, and stellar characterization'
+- authors: !!set
+    Lillo-Box et al: null
+  date: '2021'
+  doi: 10.1051/0004-6361/202141714
+  journal: Astronomy \& Astrophysics
+  title: '{HD22496b}: the first {ESPRESSO} standalone planet discovery'
+first_author:
+- authors: !!set
+    "Andr\xE9 M. Silva et al": null
+  date: '2022'
+  doi: 10.1051/0004-6361/202142262
+  journal: Astronomy \& Astrophysics
+  title: A novel framework for semi-{Bayesian} radial velocities through template
+    matching
+- authors: !!set
+    "Andr\xE9 M. Silva et al": null
+  date: '2020'
+  doi: 10.1093/mnras/staa1443
+  journal: Monthly Notices of the Royal Astronomical Society
+  title: 'archi: pipeline for light curve extraction of {CHEOPS} background stars'

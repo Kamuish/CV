@@ -1,0 +1,14 @@
+[project]
+name = "newcv"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "bibtexparser>=1.4.3",
+    "pyyaml>=6.0.2",
+    "rendercv[full]>=2.2",
+]
+
+[tool.uv.sources]
+bibtexparser = { git = "https://github.com/sciunto-org/python-bibtexparser", rev = "main" }

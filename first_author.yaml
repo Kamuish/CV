@@ -1,0 +1,9 @@
+First author publications:
+- authors: !!set
+    "Andr\xE9 M. Silva et al": null
+  date: '2022'
+  title: A novel framework for semi-Bayesian radial velocities through template matching
+- authors: !!set
+    "Andr\xE9 M. Silva et al": null
+  date: '2020'
+  title: 'archi: pipeline for light curve extraction of CHEOPS background stars'

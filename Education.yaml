@@ -1,0 +1,22 @@
+education:
+  - institution: Faculdade de Ciências
+    area: Doctor's Degree in Astronomy
+    degree: PhD
+    date:
+    start_date: 2019
+    end_date: 2024
+    location: Universidade do Porto
+    summary:
+    highlights:
+      - Thesis - A new paradigm for the estimation of precise stellar radial velocities
+
+  - institution: Faculdade de Ciências
+    area: Mestrado Integrado em Engenharia Física
+    degree: MsC
+    date:
+    start_date: 2014
+    end_date: 2019
+    location: Universidade do Porto
+    summary:
+    highlights:
+      - Thesis - An expansion to the CHEOPS mission official pipeline.

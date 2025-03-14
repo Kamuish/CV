@@ -1,0 +1,34 @@
+Talks:
+  - company: '[PoET workshop 2](https://www.iastro.pt/research/conferences/poet2024/)'
+    position: '2 talks: PoET observation software; Observing strategies and their role in the improvement of RV analysis'
+    date: 2024-11-23
+
+  - company: '[TOI III](http://www.iastro.pt/research/conferences/toe3-2023/)'
+    position: Approaches for RV extraction -- s-BART and the first steps towards a fully Bayesian model
+    date: 2023-07-18
+
+  - company: '[EPRV 5](https://conference.ipac.caltech.edu/eprv5/)'
+    position: Towards a fully Bayesian RV extraction model
+    date: 2023-03-28
+
+  - company: Exoplanets 4 EPRV splinter
+    position: sBART application to the ESPRESSO WG1 targets
+    date: 2023-02-09
+
+  - company: ESPRESSO science team meeting
+    position: s BART  a semi Bayesian implementation of template matching for precise Radial Velocities
+    date: 2022-05-02
+
+Seminars:
+  - company: Astronomy department, Uni. of Geneva 
+    position: Avenues for radial velocity extraction -- s-BART & PoET
+    date: 2025-01
+
+  - company: ESA research seminar, European Space Agency (Madrid)
+    position:  Towards an improvement in the characterisation of stellar radial velocities
+    date: 2024-05
+
+  - company: '[Café com Física](https://indico.lip.pt/category/38/)  Departamento de Fisica da Universidade de Coimbra'
+    position: The (radial) velocity of stars - detection and characterisation of exoplanets
+    date: 2024-03
+
