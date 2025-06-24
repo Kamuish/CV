@@ -3,22 +3,22 @@ Experience:
     position: Post-doctoral researcher
     date:
     start_date: 2024-11
-    end_date: 
+    end_date:
     location: CAUP
     summary:
     highlights:
       - Development of the observational software for the PoET solar telescope.
-    
+
   - company: Faculdade Ciências da Universidade do Porto
     position: Invited Assistant Professor
     date:
     start_date: 2024-11
-    end_date: 
+    end_date:
     location: Physics department
     summary:
     highlights:
       - Invited assistant to teach a PhD-level unit on high-resolution spectroscopy
-  
+
   - company: Faculdade de Ciências da Universidade de Lisboa
     position: Post-doctoral researcher
     date:
@@ -39,3 +39,12 @@ Experience:
     highlights:
       - Invited assistant for the practical classes of MsC-level unit on Bayesian data analysis.
 
+  - company: Instituto de Astrofísica e Ciências do Espaço
+    position: PhD fellow
+    date:
+    start_date: 2019
+    end_date: 2024-07
+    location: Physics department
+    summary:
+    highlights:
+      - FCT funding for the PhD thesis "A new paradigm for the estimation of precise stellar radial velocities"

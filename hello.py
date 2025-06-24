@@ -17,15 +17,18 @@ with open("/home/amiguel/Documents/newCV/André_M._Silva_CV.yaml", "r") as file:
 
 
 section_map = {
+    "Short bio": curr_dir / "short_bio.yaml",
     "Education": curr_dir / "Education.yaml",
+    "Awards": curr_dir / "awards.yaml",
     "Employment": curr_dir / "Employment.yaml",
     "talks": curr_dir / "talks.yaml",
     "supervision": curr_dir / "Supervision.yaml",
     "pubs": curr_dir / "first_author.yaml",
     "copubs": curr_dir / "coAuthor.yaml",
     "post": curr_dir / "Posters.yaml",
+    "Grants": curr_dir / "Grants.yaml",
+    "org": curr_dir / "Organization.yaml",
     "out": curr_dir / "Outreach.yaml",
-    # "org": curr_dir / "Organization.yaml",
 
 }
 
@@ -39,10 +42,9 @@ for key, path in section_map.items():
 
 
 # For now this function is creating a typst file, rather than pdf
-create_a_pdf_from_a_python_dictionary(data, "/home/amiguel/Documents/newCV/teste.typ")
+create_a_pdf_from_a_python_dictionary(data, "/home/amiguel/Documents/CV/teste.typ")
 
-
-render_a_pdf_from_typst(Path("/home/amiguel/Documents/newCV/teste.typ"))
+render_a_pdf_from_typst(Path("/home/amiguel/Documents/CV/teste.typ"))
 
 if __name__ == "__main__":
 

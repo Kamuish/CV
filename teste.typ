@@ -3,7 +3,7 @@
 
 #let name = "André M. Silva"
 #let locale-catalog-page-numbering-style = context { "André M. Silva - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Last updated in Mar 2025"
+#let locale-catalog-last-updated-date-style = "Last updated in June 2025"
 #let locale-catalog-language = "en"
 #let design-page-size = "us-letter"
 #let design-section-titles-font-size = 1.4em
@@ -451,13 +451,21 @@
 
 // Print connections:
 #let connections-list = (
-  [#fa-icon("location-dot", size: 0.9em) #h(0.05cm)CAUP],
+  [#fa-icon("location-dot", size: 0.9em) #h(0.05cm)CAUP, Rua das Estrelas, 4150-762 Porto, Portugal],
   [#box(original-link("mailto:Andre.Silva@astro.up.pt")[#fa-icon("envelope", size: 0.9em) #h(0.05cm)Andre.Silva\@astro.up.pt])],
   [#box(original-link("https://orcid.org/0000-0003-4920-738X")[#fa-icon("orcid", size: 0.9em) #h(0.05cm)0000-0003-4920-738X])],
   [#box(original-link("https://github.com/Kamuish")[#fa-icon("github", size: 0.9em) #h(0.05cm)Kamuish])],
 )
 #connections(connections-list)
 
+
+
+== Short Bio
+
+
+#one-col-entry(
+  content: [I am André Silva, a postdoctoral researcher at the Instituto de Astrofísica e Ciências do Espaço. My research spans instrumentation and exoplanetary science. I am currently working on the PoET solar telescope, leading the development of its observation software. In parallel, I focus on the development of novel algorithms for precise radial velocity extraction and analyze systematic effects that impact such measurements. Over the past three years, I have lectured an advanced course on Python, a Master's-level course on Bayesian statistics, and a PhD-level module on high-resolution spectroscopy.]
+)
 
 
 == Education
@@ -495,6 +503,25 @@
     Universidade do Porto
 
 2014 – 2019
+  ],
+)
+
+
+
+== Awards
+
+
+#two-col-entry(
+  left-content: [
+    #link("https://www.iau.org/Iau/News/Ann2025/ann25017.aspx")[#strong[IAU PhD Prize 2024]], Division B
+  ],
+  right-content: [
+    2025
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([Awarded the PhD Prize 2024 from the International Astronomical Union \(IAU\) Division B \(Facilities, Technologies, and Data Science\) for the work developed during my PhD thesis.],)
   ],
 )
 
@@ -562,11 +589,41 @@ Feb 2024 – Sept 2024
   ],
 )
 
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Instituto de Astrofísica e Ciências do Espaço], PhD fellow
+    #v(-design-text-leading)
+
+    #v(design-highlights-top-margin);#highlights([FCT funding for the PhD thesis \"A new paradigm for the estimation of precise stellar radial velocities\"],)
+  ],
+  right-content: [
+    Physics department
+
+2019 – July 2024
+  ],
+)
+
 
 
 == Talks
 
 
+#two-col-entry(
+  left-content: [
+    #link("https://plato-esp2025.sciencesconf.org/?lang=en")[#strong[Planets throughout the Habitable Zone]], A systematic bias in template-based RV extraction algorithms
+  ],
+  right-content: [
+    June 2025
+  ],
+)
+#one-col-entry(
+  content: [
+    
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
     #link("https://www.iastro.pt/research/conferences/poet2024/")[#strong[PoET workshop 2]], 2 talks: PoET observation software; Observing strategies and their role in the improvement of RV analysis
@@ -695,6 +752,20 @@ Feb 2024 – Sept 2024
 == Supervision
 
 
+#two-col-entry(
+  left-content: [
+    #strong[Transforming H-alpha images of the Sun in astronomical seeing for the PoET solar telescope], Supervisor
+
+    
+  ],
+  right-content: [
+    Undergraduate project
+
+Feb 25 - now
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
     #strong[Looking at the Sun, finding other Earths - Identification of Solar Regions], Co-supervisor
@@ -829,6 +900,58 @@ Feb 2020 – June 2020
 
 #two-col-entry(
   left-content: [
+    #strong[PoET: the Paranal solar ESPRESSO Telescope]
+
+  ],
+  right-content: [
+    2025
+  ],
+)
+#one-col-entry(content:[
+  #v(design-highlights-top-margin);Santos et al; \(Published in The Messenger vol. 194, #link("http://dx.doi.org/10.18727/0722-6691/5381")[10.18727\/0722-6691\/5381]\)])
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[TOI-512: Super-Earth transiting a K-type star discovered by TESS and ESPRESSO]
+
+  ],
+  right-content: [
+    2025
+  ],
+)
+#one-col-entry(content:[
+  #v(design-highlights-top-margin);Rodrigues et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202452887")[10.1051\/0004-6361\/202452887]\)])
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[TESS and HARPS-N unveil two planets transiting TOI-1453: A super-Earth and one of the lowest mass sub-Neptunes]
+
+  ],
+  right-content: [
+    2025
+  ],
+)
+#one-col-entry(content:[
+  #v(design-highlights-top-margin);Stalport et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202452969")[10.1051\/0004-6361\/202452969]\)])
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[A Planet Candidate Orbiting near the Hot Jupiter TOI-2818 b Inferred through Transit Timing]
+
+  ],
+  right-content: [
+    2025
+  ],
+)
+#one-col-entry(content:[
+  #v(design-highlights-top-margin);McKee et al; \(ApJ, #link("http://dx.doi.org/10.3847/1538-4357/adac63")[10.3847\/1538-4357\/adac63]\)])
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
     #strong[Revisiting the multi-planetary system of the nearby star HD 20794: Confirmation of a low-mass planet in the habitable zone of a nearby G-dwarf]
 
   ],
@@ -837,7 +960,7 @@ Feb 2020 – June 2020
   ],
 )
 #one-col-entry(content:[
-  #v(design-highlights-top-margin);Nari et al; \(Astronomy & Astrophysics, #link("http://dx.doi.org/10.1051/0004-6361/202451769")[10.1051\/0004-6361\/202451769]\)])
+  #v(design-highlights-top-margin);Nari et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202451769")[10.1051\/0004-6361\/202451769]\)])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
@@ -850,7 +973,7 @@ Feb 2020 – June 2020
   ],
 )
 #one-col-entry(content:[
-  #v(design-highlights-top-margin);Stefanov et al; \(Astronomy & Astrophysics, #link("http://dx.doi.org/10.1051/0004-6361/202452450")[10.1051\/0004-6361\/202452450]\)])
+  #v(design-highlights-top-margin);Stefanov et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202452450")[10.1051\/0004-6361\/202452450]\)])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
@@ -863,7 +986,7 @@ Feb 2020 – June 2020
   ],
 )
 #one-col-entry(content:[
-  #v(design-highlights-top-margin);Balsalobre-Ruza et al; \(Astronomy & Astrophysics, #link("http://dx.doi.org/10.1051/0004-6361/202452631")[10.1051\/0004-6361\/202452631]\)])
+  #v(design-highlights-top-margin);Balsalobre-Ruza et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202452631")[10.1051\/0004-6361\/202452631]\)])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
@@ -889,7 +1012,7 @@ Feb 2020 – June 2020
   ],
 )
 #one-col-entry(content:[
-  #v(design-highlights-top-margin);Campante et al; \(Astronomy & Astrophysics, #link("http://dx.doi.org/10.1051/0004-6361/202449197")[10.1051\/0004-6361\/202449197]\)])
+  #v(design-highlights-top-margin);Campante et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202449197")[10.1051\/0004-6361\/202449197]\)])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
@@ -902,7 +1025,7 @@ Feb 2020 – June 2020
   ],
 )
 #one-col-entry(content:[
-  #v(design-highlights-top-margin);Suárez Mascareño et al; \(Astronomy & Astrophysics, #link("http://dx.doi.org/10.1051/0004-6361/202348958")[10.1051\/0004-6361\/202348958]\)])
+  #v(design-highlights-top-margin);Suárez Mascareño et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202348958")[10.1051\/0004-6361\/202348958]\)])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
@@ -928,7 +1051,7 @@ Feb 2020 – June 2020
   ],
 )
 #one-col-entry(content:[
-  #v(design-highlights-top-margin);Passegger et al; \(Astronomy & Astrophysics, #link("http://dx.doi.org/10.1051/0004-6361/202348592")[10.1051\/0004-6361\/202348592]\)])
+  #v(design-highlights-top-margin);Passegger et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202348592")[10.1051\/0004-6361\/202348592]\)])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
@@ -967,7 +1090,7 @@ Feb 2020 – June 2020
   ],
 )
 #one-col-entry(content:[
-  #v(design-highlights-top-margin);Costa Silva et al; \(Astronomy & Astrophysics, #link("http://dx.doi.org/10.1051/0004-6361/202449935")[10.1051\/0004-6361\/202449935]\)])
+  #v(design-highlights-top-margin);Costa Silva et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202449935")[10.1051\/0004-6361\/202449935]\)])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
@@ -980,7 +1103,7 @@ Feb 2020 – June 2020
   ],
 )
 #one-col-entry(content:[
-  #v(design-highlights-top-margin);González Hernández et al; \(Astronomy & Astrophysics, #link("http://dx.doi.org/10.1051/0004-6361/202451311")[10.1051\/0004-6361\/202451311]\)])
+  #v(design-highlights-top-margin);González Hernández et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202451311")[10.1051\/0004-6361\/202451311]\)])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
@@ -993,7 +1116,7 @@ Feb 2020 – June 2020
   ],
 )
 #one-col-entry(content:[
-  #v(design-highlights-top-margin);Mascareño et al; \(Astronomy & Astrophysics, #link("http://dx.doi.org/10.1051/0004-6361/202244991")[10.1051\/0004-6361\/202244991]\)])
+  #v(design-highlights-top-margin);Mascareño et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202244991")[10.1051\/0004-6361\/202244991]\)])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
@@ -1006,7 +1129,7 @@ Feb 2020 – June 2020
   ],
 )
 #one-col-entry(content:[
-  #v(design-highlights-top-margin);Castro-González et al; \(Astronomy & Astrophysics, #link("http://dx.doi.org/10.1051/0004-6361/202346550")[10.1051\/0004-6361\/202346550]\)])
+  #v(design-highlights-top-margin);Castro-González et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202346550")[10.1051\/0004-6361\/202346550]\)])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
@@ -1019,7 +1142,7 @@ Feb 2020 – June 2020
   ],
 )
 #one-col-entry(content:[
-  #v(design-highlights-top-margin);Balsalobre-Ruza et al; \(Astronomy & Astrophysics, #link("http://dx.doi.org/10.1051/0004-6361/202243938")[10.1051\/0004-6361\/202243938]\)])
+  #v(design-highlights-top-margin);Balsalobre-Ruza et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202243938")[10.1051\/0004-6361\/202243938]\)])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
@@ -1032,7 +1155,7 @@ Feb 2020 – June 2020
   ],
 )
 #one-col-entry(content:[
-  #v(design-highlights-top-margin);Allart et al; \(Astronomy & Astrophysics, #link("http://dx.doi.org/10.1051/0004-6361/202243629")[10.1051\/0004-6361\/202243629]\)])
+  #v(design-highlights-top-margin);Allart et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202243629")[10.1051\/0004-6361\/202243629]\)])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
@@ -1045,7 +1168,7 @@ Feb 2020 – June 2020
   ],
 )
 #one-col-entry(content:[
-  #v(design-highlights-top-margin);Faria et al; \(Astronomy & Astrophysics, #link("http://dx.doi.org/10.1051/0004-6361/202142337")[10.1051\/0004-6361\/202142337]\)])
+  #v(design-highlights-top-margin);Faria et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202142337")[10.1051\/0004-6361\/202142337]\)])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
@@ -1058,7 +1181,7 @@ Feb 2020 – June 2020
   ],
 )
 #one-col-entry(content:[
-  #v(design-highlights-top-margin);Lillo-Box et al; \(Astronomy & Astrophysics, #link("http://dx.doi.org/10.1051/0004-6361/202243898")[10.1051\/0004-6361\/202243898]\)])
+  #v(design-highlights-top-margin);Lillo-Box et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202243898")[10.1051\/0004-6361\/202243898]\)])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
@@ -1071,7 +1194,7 @@ Feb 2020 – June 2020
   ],
 )
 #one-col-entry(content:[
-  #v(design-highlights-top-margin);Lillo-Box et al; \(Astronomy & Astrophysics, #link("http://dx.doi.org/10.1051/0004-6361/202141714")[10.1051\/0004-6361\/202141714]\)])
+  #v(design-highlights-top-margin);Lillo-Box et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202141714")[10.1051\/0004-6361\/202141714]\)])
 
 
 
@@ -1170,35 +1293,80 @@ Feb 2020 – June 2020
 
 
 
-== Outreach
+== Grants
 
 
 #two-col-entry(
   left-content: [
-    #strong[Ignite sessions; '#link("https://divulgacao.iastro.pt/pt/evento/ignite-iastro-torres-vedras/")[Torres Vedras]; #link("https://divulgacao.iastro.pt/en/evento/ignite-iastro-ilhavo-en/")[Ílhavo]; Armamar']
+    #strong[Post-doctoral fellowship]
   ],
   right-content: [
-    2023-2024
+    Aug-Nov 2024
   ],
 )
 #one-col-entry(
   content: [
-    
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Software development for the PoET telescope, funded by the FIERCE ERC project, grant number 101052347, Faculdade de Ciências da Universidade de Lisboa])], column-gutter: 0cm)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Outreach talks to highschool students: Espaço vai à Escola - Descoberta de outra Terra - deteção de planetas fora do sistema solar ]
+    #strong[PhD fellowship, Fundação para a Ciência e Tecnologia \(FCT\)]
   ],
   right-content: [
-    2022-2024
+    2021-2024
   ],
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [2022 \(3 talks\); 2023 \(5 online; 5 in-person\); 2024 \(6 online; 4 in-person\)])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [\"A new paradigm for the estimation of precise stellar radial velocities - towards the development of an innovative data analysis software\", Ref. 2020.05387.BD])], column-gutter: 0cm)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[FLAD grant]
+  ],
+  right-content: [
+    2023
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Fund travel to the EPRV V conference in Santa Bárbara, California, PAPERS 4 USA, Ref. 2023\/052])], column-gutter: 0cm)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Research fellowship]
+  ],
+  right-content: [
+    Nov-Dec 2019
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [field of Planetary Systems at Instituto de Astrofísica e Ciências do Espaço, Ref. IA2019-17-BIM])], column-gutter: 0cm)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Scientific Initiation Studenship]
+  ],
+  right-content: [
+    Apr-Sep 2019
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [field of Computacional Astrophysics at Instituto de Astrofísica e Ciências do Espaço, Ref. IA2019-04-BIC])], column-gutter: 0cm)
   ],
 )
 
@@ -1209,7 +1377,7 @@ Feb 2020 – June 2020
 
 #two-col-entry(
   left-content: [
-    #strong[LoC of exoplanets6]
+    #strong[Co-organizer of PoET's Working Group 1 - Radial velocities]
   ],
   right-content: [
     2025
@@ -1239,7 +1407,7 @@ Feb 2020 – June 2020
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[LoC of EPRV6]
+    #strong[Part of the Local Organization committee of EPRV6]
   ],
   right-content: [
     2025
@@ -1248,6 +1416,40 @@ Feb 2020 – June 2020
 #one-col-entry(
   content: [
     
+  ],
+)
+
+
+
+== Outreach
+
+
+#two-col-entry(
+  left-content: [
+    #strong[Ignite sessions; '#link("https://divulgacao.iastro.pt/pt/evento/ignite-iastro-torres-vedras/")[Torres Vedras]; #link("https://divulgacao.iastro.pt/en/evento/ignite-iastro-ilhavo-en/")[Ílhavo]; Armamar']
+  ],
+  right-content: [
+    2023-2024
+  ],
+)
+#one-col-entry(
+  content: [
+    
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Outreach talks to highschool students: Espaço vai à Escola - Descoberta de outra Terra - deteção de planetas fora do sistema solar ]
+  ],
+  right-content: [
+    2022-2024
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [2022 \(3 talks\); 2023 \(5 online; 5 in-person\); 2024 \(6 online; 4 in-person\)])], column-gutter: 0cm)
   ],
 )
 

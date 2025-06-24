@@ -1,4 +1,18 @@
-[  
+[ 
+    {
+        "cat": "OTHER",
+        "status": "Supervisor",
+        "type": [
+            "projeto de licenciatura",
+            "undergraduate project"
+        ],
+        "name": "Diogo Correia",
+        "title": "Transforming H-alpha images of the Sun in astronomical seeing for the PoET solar telescope",
+        "location": "CAUP/FCUP",
+        "written_dates": "Feb 25 - now",
+        "start_date": "2025-02",
+        "end_date": "2023-06-06"
+    },
     {
         "cat": "OTHER",
         "sub-cat": "PEEC",
