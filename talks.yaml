@@ -1,4 +1,8 @@
 Talks:
+  - company: '[EPRV6](https://www.iastro.pt/research/conferences/eprv6/)'
+    position: 'A systematic bias in template-based RV extraction algorithms'
+    date: 2025-07-01
+
   - company: '[Planets throughout the Habitable Zone](https://plato-esp2025.sciencesconf.org/?lang=en)'
     position: 'A systematic bias in template-based RV extraction algorithms'
     date: 2025-06-25
@@ -24,6 +28,10 @@ Talks:
     date: 2022-05-02
 
 Seminars:
+  - company: Astronomical Institute of the Czech Academy of Sciences
+    position: Avenues and challenges for radial velocity extraction -- s-BART & PoET
+    date: 2025-08
+
   - company: Astronomy department, Uni. of Geneva 
     position: Avenues for radial velocity extraction -- s-BART & PoET
     date: 2025-01
