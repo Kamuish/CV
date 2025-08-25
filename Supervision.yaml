@@ -2,7 +2,8 @@ Supervision:
   - company: Transforming H-alpha images of the Sun in astronomical seeing for the PoET solar telescope
     location: Undergraduate project
     position: Supervisor
-    date: Feb 25 - now
+    start_date: 2025-02
+    end_date: 2025-07
 
   - company: Looking at the Sun, finding other Earths - Identification of Solar Regions
     location: MsC thesis
