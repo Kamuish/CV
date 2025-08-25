@@ -10,7 +10,7 @@ import yaml
 curr_dir = Path(__file__).parent
 
 # Load YAML file
-with open("/home/amiguel/Documents/newCV/André_M._Silva_CV.yaml", "r") as file:
+with open(curr_dir / "André_M._Silva_CV.yaml", "r") as file:
     data = yaml.safe_load(file)
 
     str_yaml = " ".join(file.readlines())
@@ -42,9 +42,9 @@ for key, path in section_map.items():
 
 
 # For now this function is creating a typst file, rather than pdf
-create_a_pdf_from_a_python_dictionary(data, "/home/amiguel/Documents/CV/teste.typ")
+create_a_pdf_from_a_python_dictionary(data, curr_dir / "CV.typ")
 
-render_a_pdf_from_typst(Path("/home/amiguel/Documents/CV/teste.typ"))
+render_a_pdf_from_typst(curr_dir / "CV.typ")
 
 if __name__ == "__main__":
 
