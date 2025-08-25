@@ -3,7 +3,7 @@ name: Build and Commit PDF
 on:
   push:
     branches:
-      - main   # or whatever branch you want
+      - master
 
 jobs:
   build:
