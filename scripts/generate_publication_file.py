@@ -75,7 +75,7 @@ for name, file in data_map.items():
         out["date"] = data["year"]
 
         if name == "first_author" :
-            out["authors"] = {"André M. Silva et al"}
+            out["authors"] = {f"André M. Silva et al; ({journal}, {gen_DOI(doi)})"}
         elif name == "Posters":
             out["authors"] = {f"André M. Silva et al, {data['location']}"}
         elif name == "coAuthor":
