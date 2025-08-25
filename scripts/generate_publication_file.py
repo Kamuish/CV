@@ -103,7 +103,6 @@ for entry_type in ["first_author", "coAuthor", "Posters"]:
                 }
     
     sorted_dict[name_map[entry_type]] = []
-    print(entries)
     for entry in sorted(entries, key=lambda x: x["date"])[::-1]:
         sorted_dict[name_map[entry_type]].append(entry)
 
