@@ -110,10 +110,16 @@ Co-authored publications:
   title: 'HD22496b: the first ESPRESSO standalone planet discovery'
 First author publications:
 - authors: !!set
-    "Andr\xE9 M. Silva et al": null
+    "Andr\xE9 M. Silva et al; (A&A, [10.1051/0004-6361/202554955](http://dx.doi.org/10.1051/0004-6361/202554955))": null
+  date: '2025'
+  title: A systematic bias in template-based radial velocity extraction algorithms
+- authors: !!set
+    "Andr\xE9 M. Silva et al; (A&A, [10.1051/0004-6361/202142262](http://dx.doi.org/10.1051/0004-6361/202142262))": null
   date: '2022'
   title: A novel framework for semi-Bayesian radial velocities through template matching
 - authors: !!set
-    "Andr\xE9 M. Silva et al": null
+    ? "Andr\xE9 M. Silva et al; (Monthly Notices of the Royal Astronomical Society,\
+      \ [10.1093/mnras/staa1443](http://dx.doi.org/10.1093/mnras/staa1443))"
+    : null
   date: '2020'
   title: 'archi: pipeline for light curve extraction of CHEOPS background stars'

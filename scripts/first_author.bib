@@ -28,11 +28,53 @@
 	abstract = {Context. The ability to detect and characterise an increasing variety of exoplanets has been made possible by the continuous development of stable, high-resolution spectrographs and the Doppler radial velocity (RV) method. The cross-correlation function (CCF) method is one of the traditional approaches used to derive RVs. More recently, template matching has been introduced as an advantageous alternative for M-dwarf stars.},
 	language = {en},
 	urldate = {2022-05-20},
-	journal = {Astronomy \& Astrophysics},
+	journal = {A\&A},
 	author = {Silva, A. M. and Faria, J. P. and Santos, N. C. and Sousa, S. G. and Viana, P. T. P. and Martins, J. H. C. and Figueira, P. and Lovis, C. and Pepe, F. and Cristiani, S. and Rebolo, R. and Allart, R. and Cabral, A. and Mehner, A. and Sozzetti, A. and Mascareño, A. S. and Martins, C. J. A. P. and Ehrenreich, D. and Mégevand, D. and Palle, E. and Lo Curto, G. and Tabernero, H. M. and Lillo-Box, J. and al, et},
 	month = may,
 	year = {2022},
 	keywords = {Astrophysics - Earth and Planetary Astrophysics, Astrophysics - Instrumentation and Methods for Astrophysics, Astrophysics - Solar and Stellar Astrophysics},
-	annote = {Comment: 17 pages, 15 Figures, Accepted for publication by Astronomy \& Astrophysics (A\&A), Code available in https://github.com/iastro-pt/sBART},
 	file = {Silva_et_al_2022_A_novel_framework_for_semi-Bayesian_radial_velocities_through_template_matching.pdf:/home/amiguel/Zotero/zotero_documents/Silva_et_al_2022_A_novel_framework_for_semi-Bayesian_radial_velocities_through_template_matching2.pdf:application/pdf;Silva_et_al_2022_A_novel_framework_for_semi-Bayesian_radial_velocities_through_template_matching.pdf:/home/amiguel/Zotero/zotero_documents/Silva_et_al_2022_A_novel_framework_for_semi-Bayesian_radial_velocities_through_template_matching.pdf:application/pdf},
+}
+
+@article{silva_systematic_2025,
+	title = {A systematic bias in template-based radial velocity extraction algorithms},
+	volume = {700},
+	copyright = {https://creativecommons.org/licenses/by/4.0},
+	issn = {0004-6361, 1432-0746},
+	url = {https://www.aanda.org/10.1051/0004-6361/202554955},
+	doi = {10.1051/0004-6361/202554955},
+	abstract = {Context
+              . The radial velocity (RV) method plays a key role in modern-day astrophysics. One of the most common techniques for extracting precise RVs from state-of-the-art spectrographs is template-matching (TM) algorithms. They have been shown to perform better than a cross-correlation function (CCF) approach in cases of cooler stars (e.g. M dwarfs) and multiple implementations have appeared over the past years. More recently, line-by-line (LBL) approaches offer an alternative avenue to extract RVs by analyzing individual spectral lines.
+            
+            
+              Aims
+              . In this paper, we identify and explore a previously unidentified, multi-meter-per-second, systematic correlation between time and RVs inferred through TM and LBL methods. We evaluate the influence of the data-driven stellar template in the RV bias and hypothesise on the possible sources of this effect.
+            
+            
+              Methods
+              . We used the
+              s-BART
+              pipeline to extract RVs from three different datasets gathered over four nights of ESPRESSO and HARPS observations. We demonstrate that the effect can be recovered on a larger sample of 19 targets, totalling 4124 ESPRESSO observations over 38 nights. We also showcase the presence of the bias in RVs extracted with the
+              SERVAL
+              and
+              ARVE
+              pipelines. Lastly, we explore the construction of the stellar template over the five years of ESPRESSO observations of HD 10700, totalling more than 2000 observations.
+            
+            
+              Results
+              . We find that a systematic quasi-linear bias affects the RV extraction with slopes that vary from —0.3 ms
+              −1
+              h
+              −1
+              to —52 m s
+              −1
+              h
+              −1
+              in our sample. This trend is not observed in CCF RVs and only appears when all observations of a given star are collected within a short time period (timescales of hours). We show that this systematic contamination exists in the RV time series of two different template-matching pipelines and one line-by-line pipeline, and it is agnostic to the spectrograph. We also find that this effect is linked to the construction of the stellar template, as we were able to mitigate it through a careful selection of the observations used to construct it. Our results suggest that a contamination of micro-telluric features, coupled with other sources of correlated noise, could be the driving factor of this effect. We also show that this effect does not impact the usual usage of template-matching for the detection and characterisation of exoplanets. However, the short-timescale science cases, such as asteroseismology as well as transit and atmospheric characterisation, can be severely affected.},
+	urldate = {2025-08-21},
+	journal = {A\&A},
+	author = {Silva, A. M. and Santos, N. C. and Faria, J. P. and Martins, J. H. C. and Cristo, E. A. S. and Sousa, S. G. and Viana, P. T. P. and Artigau, É. and Al Moulla, K. and Castro-González, A. and Folha, D. F. M. and Figueira, P. and Schmidt, T. and Pepe, F. and Dumusque, X. and Demangeon, O. D. S. and Campante, T. L. and Delfosse, X. and Wehbe, B. and Lillo-Box, J. and Costa Silva, A. R. and Rodrigues, J. and González Hernández, J. I. and Azevedo Silva, T. and Cristiani, S. and Tabernero, H. M. and Palle, E. and Lavie, B. and Suárez Mascareño, A. and Di Marcantonio, P. and Cabral, A. and Martins, C. J. A. P. and Nunes, N. J. and Sozzetti, A.},
+	month = aug,
+	year = {2025},
+	pages = {A93},
 }
