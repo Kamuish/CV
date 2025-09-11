@@ -28,6 +28,7 @@ section_map = {
     "post": curr_dir / "Posters.yaml",
     "Grants": curr_dir / "Grants.yaml",
     "org": curr_dir / "Organization.yaml",
+    "ref": curr_dir / "referee.yaml",
     "out": curr_dir / "Outreach.yaml",
 
 }
