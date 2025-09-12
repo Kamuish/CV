@@ -59,12 +59,15 @@ for name, file in data_map.items():
         out = {}
 
         if name in ["first_author", "coAuthor"]:
-            if block.entry_type == "inproceedings":
-                vol = data.get("Volume", "")
-                journal = f"Proc. {data['publisher']} {vol}"
-            else:
-                journal = data["journal"]
-        
+            try:
+                if block.entry_type == "inproceedings":
+                    vol = data.get("Volume", "")
+                    journal = f"Proc. {data['publisher']} {vol}"
+                else:
+                    journal = data["journal"]
+            except Exception as e:
+                print("failed generating", block)
+                raise e
         out["title"] = data["title"]
         out["title"] = out["title"].replace("{", "").replace("}", "").replace("\\textit", "")
         journal = journal.replace("\\", "").replace("{", "").replace("}", "")
