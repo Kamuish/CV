@@ -1,4 +1,8 @@
 Talks:
+  - company: '[ENAA XXXV](https://indico.global/event/13951/overview)'
+    position: 'A Quest to Detect a Star Velocity: Radial Velocity Extraction and Associated Challenges'
+    date: 2025-09-11
+
   - company: '[EPRV6](https://www.iastro.pt/research/conferences/eprv6/)'
     position: 'A systematic bias in template-based RV extraction algorithms'
     date: 2025-07-01
