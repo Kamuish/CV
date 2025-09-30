@@ -1,4 +1,8 @@
 Talks:
+  - company: Physis Week 2025
+    position: 'Python for data analysis'
+    date: 2025-09-29
+
   - company: '[ENAA XXXV](https://indico.global/event/13951/overview)'
     position: 'A Quest to Detect a Star Velocity: Radial Velocity Extraction and Associated Challenges'
     date: 2025-09-11
