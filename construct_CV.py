@@ -27,9 +27,11 @@ section_map = {
     "copubs": curr_dir / "coAuthor.yaml",
     "post": curr_dir / "Posters.yaml",
     "Grants": curr_dir / "Grants.yaml",
+    "Skills":  curr_dir / "Skills.yaml",
     "org": curr_dir / "Organization.yaml",
     "ref": curr_dir / "referee.yaml",
     "out": curr_dir / "Outreach.yaml",
+    
 
 }
 
@@ -43,7 +45,8 @@ for key, path in section_map.items():
 
 
 # For now this function is creating a typst file, rather than pdf
-create_a_pdf_from_a_python_dictionary(data, curr_dir / "CV.typ")
+out = create_a_pdf_from_a_python_dictionary(data, curr_dir / "CV.typ")
+print(out)
 
 render_a_pdf_from_typst(curr_dir / "CV.typ")
 

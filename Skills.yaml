@@ -1,0 +1,15 @@
+# Skills:
+#   - Technologies: python3, LaTeX, git
+#   # - Data manipulation: (numpy, pandas) and visualization (matplotlib).
+#   # - 
+#   # - Code optimization to large dataset through numpy vectorisations and Cython development
+
+skills:
+      - label: Programming
+        details: Proficient with Python and Git; Familiar with code optimization to large datasets through numpy operations and Cython development
+      - label: Data manipulation
+        details: Proficient with numpy and pandas for the manipulation of large datasets, coupled with matplotlib for data visualization
+      - label: Data Analysis
+        details: Analysis of complex datasets using classical statistics (scipy) and Bayesian models (emcee, tinyGP)
+      - label: Languages
+        details: 'English (fluent), Portuguese (native)'
