@@ -1,7 +1,11 @@
 def main():
     print("Hello from newcv!")
 
-from rendercv.api import create_a_pdf_from_a_python_dictionary, create_a_pdf_from_a_yaml_string
+
+from rendercv.api import (
+    create_a_pdf_from_a_python_dictionary,
+    create_a_pdf_from_a_yaml_string,
+)
 from rendercv.renderer import render_a_pdf_from_typst
 
 from pathlib import Path
@@ -27,12 +31,10 @@ section_map = {
     "copubs": curr_dir / "coAuthor.yaml",
     "post": curr_dir / "Posters.yaml",
     "Grants": curr_dir / "Grants.yaml",
-    "Skills":  curr_dir / "Skills.yaml",
+    "Skills": curr_dir / "Skills.yaml",
     "org": curr_dir / "Organization.yaml",
     "ref": curr_dir / "referee.yaml",
     "out": curr_dir / "Outreach.yaml",
-    
-
 }
 
 data["cv"]["sections"] = {}

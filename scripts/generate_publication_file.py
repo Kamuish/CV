@@ -3,37 +3,39 @@ Generate the publications.text file from the .bib files!!!
 
 """
 
-
-from pathlib import Path 
+from pathlib import Path
 import bibtexparser
 from collections import defaultdict
 
 curr = Path(__file__).parent
 data_map = {
-            "coAuthor": curr / "CoAuthor.bib",
-            "first_author": curr / "first_author.bib",
-            "Posters": curr / "posters.bib"
-            }
+    "coAuthor": curr / "CoAuthor.bib",
+    "first_author": curr / "first_author.bib",
+    "Posters": curr / "posters.bib",
+    "Selected": curr / "Selected.bib",
+}
 
 
-info_map = {"first_author": {"title": "\langen{First-author Papers}\langpt{Autor principal}"
-                             },
-            "coAuthor": {"title": "\langen{Co-authored Papers}\langpt{Co-autor}"},
-            "Posters": {"title": "Posters"},
-            
-            }
+info_map = {
+    "first_author": {"title": "\langen{First-author Papers}\langpt{Autor principal}"},
+    "coAuthor": {"title": "\langen{Co-authored Papers}\langpt{Co-autor}"},
+    "Posters": {"title": "Posters"},
+    "Selected": {"title": "Selected publications"},
+}
 
 out_file = "/home/amiguel/CV/publications.tex"
+
 
 def load_from_field(field) -> str:
     out = dict()
     for entry in field:
         out[entry.key] = entry.value
-    return out    
+    return out
 
 
 def gen_DOI(doi):
     return f"[{doi}]" + "(http://dx.doi.org/" + doi + ")"
+
 
 latex_entries = defaultdict(list)
 
@@ -46,19 +48,19 @@ for name, file in data_map.items():
     output_info[name] = []
     if name == "first_author":
         base_format = "André M. Silva et al, {0} - '{1}', {2} ({4} DOI: {3})"
-    elif name == "coAuthor":
+    elif name == "coAuthor" or name == "Selected":
         base_format = "{4} et al, {0} - '{1}', {2} ( {5} DOI: {3})"
     elif name == "Posters":
         base_format = "'{0}', {1}, {2}"
     else:
         raise Exception
-    
+
     for block in out.blocks:
         data = load_from_field(block.fields)
 
         out = {}
 
-        if name in ["first_author", "coAuthor"]:
+        if name in ["first_author", "coAuthor", "Selected"]:
             try:
                 if block.entry_type == "inproceedings":
                     vol = data.get("Volume", "")
@@ -69,7 +71,9 @@ for name, file in data_map.items():
                 print("failed generating", block)
                 raise e
         out["title"] = data["title"]
-        out["title"] = out["title"].replace("{", "").replace("}", "").replace("\\textit", "")
+        out["title"] = (
+            out["title"].replace("{", "").replace("}", "").replace("\\textit", "")
+        )
         journal = journal.replace("\\", "").replace("{", "").replace("}", "")
 
         if name != "Posters":
@@ -77,34 +81,42 @@ for name, file in data_map.items():
         # out["journal"] = journal
         out["date"] = data["year"]
 
-        if name == "first_author" :
+        if name == "first_author":
             out["authors"] = {f"André M. Silva et al; ({journal}, {gen_DOI(doi)})"}
         elif name == "Posters":
             out["authors"] = {f"André M. Silva et al, {data['location']}"}
-        elif name == "coAuthor":
-            out["authors"] = {data["author"].split(",")[0] + f" et al; ({journal}, {gen_DOI(doi)})"}
-            
+        elif name == "coAuthor" or name == "Selected":
+            out["authors"] = {
+                data["author"].split(",")[0] + f" et al; ({journal}, {gen_DOI(doi)})"
+            }
+
         output_info[name].append(out)
 
 print(data_map)
 
+
 def add_space(number, file):
     file.write(number * "\n")
+
+
 import yaml
-curr_folder = Path(__file__).parent.parent 
+
+curr_folder = Path(__file__).parent.parent
 
 for entry in sorted(latex_entries["first_author"], key=lambda x: x[0])[::-1]:
     print(entry[1])
 
 sorted_dict = {}
 
-for entry_type in ["first_author", "coAuthor", "Posters"]:
+for entry_type in ["first_author", "coAuthor", "Posters", "Selected"]:
     entries = output_info[entry_type]
-    name_map = {"first_author": "First author publications",
-                "coAuthor": "Co-authored publications",
-                "Posters": "Posters"
-                }
-    
+    name_map = {
+        "first_author": "First author publications",
+        "coAuthor": "Co-authored publications",
+        "Posters": "Posters",
+        "Selected": "Selected publications",
+    }
+
     sorted_dict[name_map[entry_type]] = []
     for entry in sorted(entries, key=lambda x: x["date"])[::-1]:
         sorted_dict[name_map[entry_type]].append(entry)
