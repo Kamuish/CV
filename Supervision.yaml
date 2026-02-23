@@ -1,4 +1,19 @@
 Supervision:
+  - company: Clustering of spectral lines based on their parameters
+    location: MsC thesis
+    position: Co-supervisor
+    start_date: 2026-02
+
+  - company: Improved modelling of CCF profiles for activity-insensitive radial-velocity extraction
+    location: Undergraduate project
+    position: Supervisor
+    start_date: 2026-02
+
+  - company:  Measuring Zeeman Broadening in Stellar Spectra
+    location: Undergraduate project
+    position: Co-supervisor
+    start_date: 2026-07
+
   - company: Transforming H-alpha images of the Sun in astronomical seeing for the PoET solar telescope
     location: Undergraduate project
     position: Supervisor
