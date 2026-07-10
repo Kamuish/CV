@@ -1,4 +1,13 @@
 Talks:
+
+  - company: EAS2026
+    position: 'On the extraction of precise radial velocities from high-resolution spectra - avenues and challenges'
+    date: 2026-07-02
+
+  - company: exoplanets6
+    position: 'Intrinsic limitations to template-based radial velocity extraction from high-resolution spectra'
+    date: 2026-06-29
+
   - company: '[EPRV x Solar Physics workshop](https://eprv-rcn.github.io/events/eprv-solar-workshop/)'
     position: ' Looking at the Sun through ESPRESSO - The PoET solar telescope'
     date: 2026-06-11
