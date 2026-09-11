@@ -1,6 +1,17 @@
 Talks:
+  - company: '[ENAA XXXVI (invited talk)](https://indico.global/event/18181/page/5830-program)' 
+    position: 'PoET - A portuguese solar telescope in the Atacama desert'
+    date: 2026-09-10
 
-  - company: EAS2026
+  - company: IAU symposium 408
+    position: 'Looking at the Sun through ESPRESSO - the PoET solar telescope'
+    date: 2026-08-19
+
+  - company: COSPAR2026 (invited talk)
+    position: 'POET: LOOKING AT THE SUN TO FIND OTHER EARTHS'
+    date: 2026-08-03
+
+  - company: EAS2026 (invited talk)
     position: 'On the extraction of precise radial velocities from high-resolution spectra - avenues and challenges'
     date: 2026-07-02
 

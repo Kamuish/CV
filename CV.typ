@@ -525,6 +525,21 @@
   ],
 )
 
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #link("https://eas.unige.ch/merac_prizes.jsp")[#strong[EAS MERAC 2026]], Division B
+  ],
+  right-content: [
+    2025
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([Awarded the European Astronomical Society \(EAS\) MERAC Prize in Observational Astrophysics for the work developed during my PhD thesis.],)
+  ],
+)
+
 
 
 == Experience
@@ -609,6 +624,96 @@ Feb 2024 – Sept 2024
 == Talks
 
 
+#two-col-entry(
+  left-content: [
+    #link("https://indico.global/event/18181/page/5830-program")[#strong[ENAA XXXVI \(invited talk\)]], PoET - A portuguese solar telescope in the Atacama desert
+  ],
+  right-content: [
+    Sept 2026
+  ],
+)
+#one-col-entry(
+  content: [
+    
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[IAU symposium 408], Looking at the Sun through ESPRESSO - the PoET solar telescope
+  ],
+  right-content: [
+    Aug 2026
+  ],
+)
+#one-col-entry(
+  content: [
+    
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[COSPAR2026 \(invited talk\)], POET: LOOKING AT THE SUN TO FIND OTHER EARTHS
+  ],
+  right-content: [
+    Aug 2026
+  ],
+)
+#one-col-entry(
+  content: [
+    
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[EAS2026 \(invited talk\)], On the extraction of precise radial velocities from high-resolution spectra - avenues and challenges
+  ],
+  right-content: [
+    July 2026
+  ],
+)
+#one-col-entry(
+  content: [
+    
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[exoplanets6], Intrinsic limitations to template-based radial velocity extraction from high-resolution spectra
+  ],
+  right-content: [
+    June 2026
+  ],
+)
+#one-col-entry(
+  content: [
+    
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #link("https://eprv-rcn.github.io/events/eprv-solar-workshop/")[#strong[EPRV x Solar Physics workshop]],  Looking at the Sun through ESPRESSO - The PoET solar telescope
+  ],
+  right-content: [
+    June 2026
+  ],
+)
+#one-col-entry(
+  content: [
+    
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
     #strong[Physis Week 2025], Python for data analysis
@@ -814,6 +919,48 @@ Feb 2024 – Sept 2024
 
 #two-col-entry(
   left-content: [
+    #strong[A new window into stellar noise in exoplanet research - the PoET view], Co-supervisor
+
+    
+  ],
+  right-content: [
+    MsC thesis
+
+July 2026 – present
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Improved modelling of CCF profiles for activity-insensitive radial-velocity extraction], Supervisor
+
+    
+  ],
+  right-content: [
+    Undergraduate project
+
+Feb 2026 – July 2026
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Measuring Zeeman Broadening in Stellar Spectra], Co-supervisor
+
+    
+  ],
+  right-content: [
+    Undergraduate project
+
+Feb 2026 – July 2026
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
     #strong[Transforming H-alpha images of the Sun in astronomical seeing for the PoET solar telescope], Supervisor
 
     
@@ -981,7 +1128,7 @@ Feb 2020 – June 2020
 
 
 
-== Co-authored Publications
+== Selected Co-authored Publications
 
 
 #two-col-entry(
@@ -1012,45 +1159,6 @@ Feb 2020 – June 2020
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[TOI-2322: Two transiting rocky planets close to the stellar rotation period and its first harmonic]
-
-  ],
-  right-content: [
-    2025
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);Hobson et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202555614")[10.1051\/0004-6361\/202555614]\)])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Synthesizing Sun-as-a-star flare spectra from high-resolution solar observations]
-
-  ],
-  right-content: [
-    2025
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);De Wilde et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202554870")[10.1051\/0004-6361\/202554870]\)])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Two neighbours of the ultra-short-period Earth-sized planet K2-157 b in the warm Neptunian savanna]
-
-  ],
-  right-content: [
-    2025
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);Castro-González et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202554736")[10.1051\/0004-6361\/202554736]\)])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
     #strong[PoET: the Paranal solar ESPRESSO Telescope]
 
   ],
@@ -1077,58 +1185,6 @@ Feb 2020 – June 2020
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[TESS and HARPS-N unveil two planets transiting TOI-1453: A super-Earth and one of the lowest mass sub-Neptunes]
-
-  ],
-  right-content: [
-    2025
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);Stalport et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202452969")[10.1051\/0004-6361\/202452969]\)])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[A Planet Candidate Orbiting near the Hot Jupiter TOI-2818 b Inferred through Transit Timing]
-
-  ],
-  right-content: [
-    2025
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);McKee et al; \(ApJ, #link("http://dx.doi.org/10.3847/1538-4357/adac63")[10.3847\/1538-4357\/adac63]\)])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Revisiting the multi-planetary system of the nearby star HD 20794: Confirmation of a low-mass planet in the habitable zone of a nearby G-dwarf]
-
-  ],
-  right-content: [
-    2025
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);Nari et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202451769")[10.1051\/0004-6361\/202451769]\)])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[A sub-Earth-mass planet orbiting Barnard’s star: No evidence of transits in TESS photometry]
-
-  ],
-  right-content: [
-    2025
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);Stefanov et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202452450")[10.1051\/0004-6361\/202452450]\)])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
     #strong[KOBE-1: The first planetary system from the KOBE survey: Two planets likely residing in the sub-Neptune mass regime around a late K-dwarf]
 
   ],
@@ -1142,45 +1198,6 @@ Feb 2020 – June 2020
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Detecting and characterising exoplanets with HARPS-N]
-
-  ],
-  right-content: [
-    2024
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);Rice et al; \(Proc. IAU, #link("http://dx.doi.org/10.1017/S1743921324001741")[10.1017\/S1743921324001741]\)])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Characterization of K2-167 b and CALM, a new stellar activity mitigation method]
-
-  ],
-  right-content: [
-    2024
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);De Beurs et al; \(Monthly Notices of the Royal Astronomical Society, #link("http://dx.doi.org/10.1093/mnras/stae207")[10.1093\/mnras\/stae207]\)])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Expanding the frontiers of cool-dwarf asteroseismology with ESPRESSO: Detection of solar-like oscillations in the K5 dwarf ϵ Indi]
-
-  ],
-  right-content: [
-    2024
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);Campante et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202449197")[10.1051\/0004-6361\/202449197]\)])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
     #strong[TESS and ESPRESSO discover a super-Earth and a mini-Neptune orbiting the K-dwarf TOI-238]
 
   ],
@@ -1190,71 +1207,6 @@ Feb 2020 – June 2020
 )
 #one-col-entry(content:[
   #v(design-highlights-top-margin);Suárez Mascareño et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202348958")[10.1051\/0004-6361\/202348958]\)])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Confronting compositional confusion through the characterisation of the sub-Neptune orbiting HD 77946]
-
-  ],
-  right-content: [
-    2024
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);Palethorpe et al; \(Monthly Notices of the Royal Astronomical Society, #link("http://dx.doi.org/10.1093/mnras/stae707")[10.1093\/mnras\/stae707]\)])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[The compact multi-planet system GJ 9827 revisited with ESPRESSO]
-
-  ],
-  right-content: [
-    2024
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);Passegger et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202348592")[10.1051\/0004-6361\/202348592]\)])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Implementation of a seeing measurement device for the PoET solar telescope]
-
-  ],
-  right-content: [
-    2024
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);Wehbé et al; \(Proc. SPIE , #link("http://dx.doi.org/10.1117/12.3017481")[10.1117\/12.3017481]\)])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[PoET, the Paranal solar ESPRESSO Telescope: a spatially resolved Sun in a high resolution spectrograph]
-
-  ],
-  right-content: [
-    2024
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);Leite et al; \(Proc. SPIE , #link("http://dx.doi.org/10.1117/12.3016776")[10.1117\/12.3016776]\)])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[ESPRESSO reveals blueshifted neutral iron emission lines on the dayside of WASP-76 b]
-
-  ],
-  right-content: [
-    2024
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);Costa Silva et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202449935")[10.1051\/0004-6361\/202449935]\)])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
@@ -1298,32 +1250,6 @@ Feb 2020 – June 2020
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[KOBEsim: A Bayesian observing strategy algorithm for planet detection in radial velocity blind-search surveys]
-
-  ],
-  right-content: [
-    2023
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);Balsalobre-Ruza et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202243938")[10.1051\/0004-6361\/202243938]\)])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Automatic model-based telluric correction for the ESPRESSO data reduction software: Model description and application to radial velocity computation]
-
-  ],
-  right-content: [
-    2022
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);Allart et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202243629")[10.1051\/0004-6361\/202243629]\)])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
     #strong[A candidate short-period sub-Earth orbiting Proxima Centauri]
 
   ],
@@ -1347,226 +1273,6 @@ Feb 2020 – June 2020
 #one-col-entry(content:[
   #v(design-highlights-top-margin);Lillo-Box et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202243898")[10.1051\/0004-6361\/202243898]\)])
 
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[HD22496b: the first ESPRESSO standalone planet discovery]
-
-  ],
-  right-content: [
-    2021
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);Lillo-Box et al; \(A&A, #link("http://dx.doi.org/10.1051/0004-6361/202141714")[10.1051\/0004-6361\/202141714]\)])
-
-
-
-== Posters
-
-
-#two-col-entry(
-  left-content: [
-    #strong[The Paranal solar ESPRESSO Telescope - towards a resolved view of the Sun]
-
-  ],
-  right-content: [
-    2024
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);André M. Silva et al, Leiden, Exoplanets 5])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[A fully-Bayesian model for RV extraction]
-
-  ],
-  right-content: [
-    2024
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);André M. Silva et al, Leiden, Exoplanets 5])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Navigating Through a Sea of Activity – A Portuguese Solar Telescope]
-
-  ],
-  right-content: [
-    2024
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);André M. Silva et al, Lisbon, ENAA XXXV])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[A Bayesian template matching approach applied to HARPS : towards the improvement of the RV precision]
-
-  ],
-  right-content: [
-    2021
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);André M. Silva et al, Online, European Astronomical Society Annual meeting 2021])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[A semi-Bayesian implementation of template matching for precise Radial Velocities]
-
-  ],
-  right-content: [
-    2021
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);André M. Silva et al, Online, Statistical challenges in Modern astronomy VII])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[A semi-Bayesian implementation of template matching for precise Radial Velocities]
-
-  ],
-  right-content: [
-    2021
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);André M. Silva et al, Online, Encontro Ciência 21])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[ARCHI: pipeline for light curve extraction of CHEOPS background stars]
-
-  ],
-  right-content: [
-    2020
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);André M. Silva et al, Online, Europlanet Science Congress 2020])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[A Bayesian approach to precise Radial Velocities]
-
-  ],
-  right-content: [
-    2020
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);André M. Silva et al, Online, 30th Encontro Nacional de Astronomia e Astrofísica])
-
-
-
-== Grants
-
-
-#two-col-entry(
-  left-content: [
-    #strong[Post-doctoral fellowship]
-  ],
-  right-content: [
-    Aug-Nov 2024
-  ],
-)
-#one-col-entry(
-  content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Software development for the PoET telescope, funded by the FIERCE ERC project, grant number 101052347, Faculdade de Ciências da Universidade de Lisboa])], column-gutter: 0cm)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[PhD fellowship, Fundação para a Ciência e Tecnologia \(FCT\)]
-  ],
-  right-content: [
-    2021-2024
-  ],
-)
-#one-col-entry(
-  content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [\"A new paradigm for the estimation of precise stellar radial velocities - towards the development of an innovative data analysis software\", Ref. 2020.05387.BD])], column-gutter: 0cm)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[FLAD grant]
-  ],
-  right-content: [
-    2023
-  ],
-)
-#one-col-entry(
-  content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Fund travel to the EPRV V conference in Santa Bárbara, California, PAPERS 4 USA, Ref. 2023\/052])], column-gutter: 0cm)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Research fellowship]
-  ],
-  right-content: [
-    Nov-Dec 2019
-  ],
-)
-#one-col-entry(
-  content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [field of Planetary Systems at Instituto de Astrofísica e Ciências do Espaço, Ref. IA2019-17-BIM])], column-gutter: 0cm)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Scientific Initiation Studenship]
-  ],
-  right-content: [
-    Apr-Sep 2019
-  ],
-)
-#one-col-entry(
-  content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [field of Computacional Astrophysics at Instituto de Astrofísica e Ciências do Espaço, Ref. IA2019-04-BIC])], column-gutter: 0cm)
-  ],
-)
-
-
-
-== Skills
-
-
-#one-col-entry(
-  content: [#strong[Programming:] Proficient with Python and Git; Familiar with code optimization to large datasets through numpy operations and Cython development]
-)
-#v(design-entries-vertical-space-between-entries)
-#one-col-entry(
-  content: [#strong[Data manipulation:] Proficient with numpy and pandas for the manipulation of large datasets, coupled with matplotlib for data visualization]
-)
-#v(design-entries-vertical-space-between-entries)
-#one-col-entry(
-  content: [#strong[Data Analysis:] Analysis of complex datasets using classical statistics \(scipy\) and Bayesian models \(emcee, tinyGP\)]
-)
-#v(design-entries-vertical-space-between-entries)
-#one-col-entry(
-  content: [#strong[Languages:] English \(fluent\), Portuguese \(native\)]
-)
 
 
 == Organization
@@ -1663,15 +1369,15 @@ Feb 2020 – June 2020
 
 
 
-== Refereed
+== Outreach
 
 
 #two-col-entry(
   left-content: [
-    #strong[Main referee of the MsC thesis of Telmo Monteiro, in FCUP]
+    #strong[Outreach talk in Jornadas Espaciais 2026 \(Lisbon, Portugal\); \"Exoplanetas e Mundos distantes\"]
   ],
   right-content: [
-    2025
+    May 2026
   ],
 )
 #one-col-entry(
@@ -1681,20 +1387,21 @@ Feb 2020 – June 2020
 )
 
 #v(design-entries-vertical-space-between-entries)
-
+#two-col-entry(
+  left-content: [
+    #strong[Outreach talk in COMICCON 2026 \(Portugal\); \"PoET - um telescópio solar  português\"]
+  ],
+  right-content: [
+    Apr 2026
+  ],
+)
 #one-col-entry(
   content: [
-    #strong[Refereed 1 manuscript for A&A]
-
     
   ],
 )
 
-
-
-== Outreach
-
-
+#v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
     #strong[Ignite sessions; '#link("https://divulgacao.iastro.pt/pt/evento/ignite-iastro-torres-vedras/")[Torres Vedras]; #link("https://divulgacao.iastro.pt/en/evento/ignite-iastro-ilhavo-en/")[Ílhavo]; Armamar']
